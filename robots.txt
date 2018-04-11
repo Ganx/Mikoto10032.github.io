@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://mikoto10032.github.io/sitemap.xml
