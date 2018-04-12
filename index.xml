@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jane - A super concise theme for Hugo</title>
+    <title>Lianghaozan</title>
     <link>https://mikoto10032.github.io/</link>
-    <description>Recent content on Jane - A super concise theme for Hugo</description>
+    <description>Recent content on Lianghaozan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
@@ -35,9 +35,9 @@
     </item>
     
     <item>
-      <title>DeepLearning</title>
+      <title>深度学习</title>
       <link>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/deeplearning/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/deeplearning/</guid>
       
@@ -53,11 +53,15 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/神经网络和深度学习neural%20networks%20and%20deep-learning-中文_ALL.pdf&#34;&gt;3. 《神经网络与深度学习》 Michael Nielsen&lt;/a&gt;    &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/斯坦福大学-深度学习基础教程.pdf&#34;&gt;4. 《斯坦福大学深度学习基础教程》 Ng&lt;/a&gt;    &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/模式识别与机器学习PRML_Chinese_vision.pdf&#34;&gt;5. 《模式识别与机器学习》 Christopher Bishop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/Tensorflow%20实战Google深度学习框架.pdf&#34;&gt;6. 《Tensorflow实战Google深度学习框架》 郑泽宇 顾思宇&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/机器学习实战%20中文双页版.pdf&#34;&gt;7. 《机器学习实战》 PelerHarrington&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/%5BML-CS229%5D%5B2011%5D%5BAndrew%20NG%5D/%5B2011%5D%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E4%B8%AA%E4%BA%BA%E7%AC%94.pdf&#34;&gt;8. 机器学习 吴恩达 cs229个人笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/%5BML-Coursera%5D%5B2014%5D%5BAndrew%20Ng%5D/%5B2014%5D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E5%AE%8C%E6%95%B4%E7%89%88v5.1.pdf&#34;&gt;9. 机器学习 吴恩达 Coursera个人笔记&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/Tensorflow%20实战Google深度学习框架.pdf&#34;&gt;6. 《Tensorflow实战Google深度学习框架》 郑泽宇 顾思宇&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;神经网络模型概览&#34;&gt;神经网络模型概览&lt;/h2&gt;
 
-&lt;h2 id=&#34;神经网络模型概览&#34;&gt;神经网络模型概览&lt;/h2&gt;&lt;/li&gt;
-
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_35082030/article/details/73368962&#34;&gt;1. 一文看懂25个神经网络模型&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;cnn&#34;&gt;CNN&lt;/h3&gt;&lt;/li&gt;
