@@ -130,13 +130,21 @@
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30482640&#34;&gt;1. 关于奇异值分解SVD的总结（PCA、LDI）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29846048&#34;&gt;2. 奇异值分解（SVD）&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zhongkejingwang/article/details/43053513&#34;&gt;3. 奇异值分解(SVD)原理详解及推导&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zhongkejingwang/article/details/43053513&#34;&gt;3. 奇异值分解(SVD)原理详解及推导&lt;/a&gt;    &lt;/p&gt;
+
+&lt;h3 id=&#34;迁移学习&#34;&gt;迁移学习&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/linolzhang/article/details/73358219&#34;&gt;1. 迁移学习：经典算法解析&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/41979241&#34;&gt;2. 什么是迁移学习 (Transfer Learning)？这个领域历史发展前景如何？&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;工具平台使用&#34;&gt;工具平台使用  &lt;/h2&gt;
 
-&lt;h3 id=&#34;tensorflow&#34;&gt;Tensorflow&lt;/h3&gt;&lt;/li&gt;
+&lt;h3 id=&#34;tensorflow&#34;&gt;Tensorflow&lt;/h3&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35515805?group_id=967136289941897216&#34;&gt;【干货】史上最全的Tensorflow学习资源汇总&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35515805?group_id=967136289941897216&#34;&gt;【干货】史上最全的Tensorflow学习资源汇总&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;数据集&#34;&gt;数据集  &lt;/h2&gt;
