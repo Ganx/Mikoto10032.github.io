@@ -37,7 +37,7 @@
     <item>
       <title>深度学习</title>
       <link>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/deeplearning/</link>
-      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/deeplearning/</guid>
       
@@ -122,7 +122,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;深度学习算法&#34;&gt;深度学习算法    &lt;/h2&gt;
+&lt;h2 id=&#34;深度学习相关算法&#34;&gt;深度学习相关算法    &lt;/h2&gt;
 
 &lt;h3 id=&#34;svd&#34;&gt;SVD&lt;/h3&gt;
 
@@ -137,6 +137,8 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/linolzhang/article/details/73358219&#34;&gt;1. 迁移学习：经典算法解析&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/41979241&#34;&gt;2. 什么是迁移学习 (Transfer Learning)？这个领域历史发展前景如何？&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/notes/日常阅读笔记/2018_4_12_迁移学习.pdf&#34;&gt;3. 迁移学习个人笔记&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;工具平台使用&#34;&gt;工具平台使用  &lt;/h2&gt;
@@ -145,6 +147,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35515805?group_id=967136289941897216&#34;&gt;【干货】史上最全的Tensorflow学习资源汇总&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hzy46/Deep-Learning-21-Examples&#34;&gt;《21个项目玩转深度学习———基于TensorFlow的实践详解》&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;数据集&#34;&gt;数据集  &lt;/h2&gt;
