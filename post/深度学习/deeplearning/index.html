@@ -26,7 +26,7 @@
 
 
 <meta name="author" content="Lianghaozan" />
-  <meta name="description" content="DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua&#43;Bengio&#43;Ian&#43;GoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Ng 5. 《模式识别与机器学习》 Christopher Bishop 6. 《" />
+  <meta name="description" content="DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua&#43;Bengio&#43;Ian&#43;GoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Andrew Ng（吴恩达） 5. 《模式识别与机器" />
 
   <meta name="keywords" content="Hugo, theme, jane" />
 
@@ -59,15 +59,15 @@
 
 
 <meta property="og:title" content="深度学习" />
-<meta property="og:description" content="DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua&#43;Bengio&#43;Ian&#43;GoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Ng 5. 《模式识别与机器学习》 Christopher Bishop 6. 《" />
+<meta property="og:description" content="DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua&#43;Bengio&#43;Ian&#43;GoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Andrew Ng（吴恩达） 5. 《模式识别与机器" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/deeplearning/" />
 
 
 
-<meta property="article:published_time" content="2018-04-13T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2018-04-24T00:00:00&#43;00:00"/>
 
-<meta property="article:modified_time" content="2018-04-13T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-04-24T00:00:00&#43;00:00"/>
 
 
 
@@ -80,19 +80,19 @@
 
 
 <meta itemprop="name" content="深度学习">
-<meta itemprop="description" content="DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua&#43;Bengio&#43;Ian&#43;GoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Ng 5. 《模式识别与机器学习》 Christopher Bishop 6. 《">
+<meta itemprop="description" content="DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua&#43;Bengio&#43;Ian&#43;GoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Andrew Ng（吴恩达） 5. 《模式识别与机器">
 
 
-<meta itemprop="datePublished" content="2018-04-13T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-04-13T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="786">
+<meta itemprop="datePublished" content="2018-04-24T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-04-24T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1376">
 
 
 
-<meta itemprop="keywords" content="深度学习," />
+<meta itemprop="keywords" content="深度学习,机器学习," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="深度学习"/>
-<meta name="twitter:description" content="DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua&#43;Bengio&#43;Ian&#43;GoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Ng 5. 《模式识别与机器学习》 Christopher Bishop 6. 《"/>
+<meta name="twitter:description" content="DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua&#43;Bengio&#43;Ian&#43;GoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Andrew Ng（吴恩达） 5. 《模式识别与机器"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -185,14 +185,14 @@
       <h1 class="post-title">深度学习</h1>
       
       <div class="post-meta">
-        <span class="post-time"> 2018-04-13 </span>
+        <span class="post-time"> 2018-04-24 </span>
         <div class="post-category">
             
               <a href="/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"> 深度学习 </a>
             
           </div>
-        <span class="more-meta"> 786 words </span>
-        <span class="more-meta"> 2 min read </span>
+        <span class="more-meta"> 1376 words </span>
+        <span class="more-meta"> 3 min read </span>
       </div>
     </header>
 
@@ -210,24 +210,35 @@
 <ul>
 <li><a href="#cnn">CNN</a></li>
 <li><a href="#gan">GAN</a></li>
-<li><a href="#lstm">LSTM</a></li>
+<li><a href="#rnn">RNN</a></li>
+<li><a href="#rnn之lstm">RNN之LSTM  </a></li>
 </ul></li>
-<li><a href="#前沿神经网络">前沿神经网络</a>
+<li><a href="#前沿神经网络">前沿神经网络    </a>
 <ul>
-<li><a href="#capsnet">CapsNet</a></li>
+<li><a href="#resnet">ResNet</a></li>
+<li><a href="#capsnet">CapsNet    </a></li>
 <li><a href="#目标检测模型yolo">目标检测模型YOLO</a></li>
 </ul></li>
 <li><a href="#优化算法">优化算法    </a></li>
+<li><a href="#梯度问题">梯度问题</a></li>
 <li><a href="#深度学习相关算法">深度学习相关算法    </a>
 <ul>
 <li><a href="#svd">SVD</a></li>
 <li><a href="#迁移学习">迁移学习</a></li>
+<li><a href="#svm">SVM</a></li>
+<li><a href="#元学习">元学习</a></li>
+<li><a href="#强化学习">强化学习</a></li>
+<li><a href="#决策树">决策树</a></li>
+<li><a href="#推荐算法">推荐算法</a></li>
 </ul></li>
 <li><a href="#工具平台使用">工具平台使用  </a>
 <ul>
 <li><a href="#tensorflow">Tensorflow</a></li>
+<li><a href="#mxnet">MXNet</a></li>
+<li><a href="#python3-x">Python3.x</a></li>
 </ul></li>
 <li><a href="#数据集">数据集  </a></li>
+<li><a href="#to-do-list">To do list:</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -246,24 +257,48 @@
 <li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/机器学习周志华.pdf">1. 《机器学习》 周志华</a></li>
 <li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/深度学习.DeepLearning.Yoshua%2BBengio%2BIan%2BGoodFellow中文版.pdf">2. 《深度学习》 Yoshua+Bengio+Ian+GoodFellow</a></li>
 <li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/神经网络和深度学习neural%20networks%20and%20deep-learning-中文_ALL.pdf">3. 《神经网络与深度学习》 Michael Nielsen</a>    </li>
-<li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/斯坦福大学-深度学习基础教程.pdf">4. 《斯坦福大学深度学习基础教程》 Ng</a>    </li>
+<li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/斯坦福大学-深度学习基础教程.pdf">4. 《斯坦福大学深度学习基础教程》 Andrew Ng（吴恩达）</a>      </li>
 <li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/模式识别与机器学习PRML_Chinese_vision.pdf">5. 《模式识别与机器学习》 Christopher Bishop</a></li>
 <li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/Tensorflow%20实战Google深度学习框架.pdf">6. 《Tensorflow实战Google深度学习框架》 郑泽宇 顾思宇</a></li>
 <li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/机器学习实战%20中文双页版.pdf">7. 《机器学习实战》 PelerHarrington</a></li>
-<li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/%5BML-CS229%5D%5B2011%5D%5BAndrew%20NG%5D/%5B2011%5D%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E4%B8%AA%E4%BA%BA%E7%AC%94.pdf">8. 机器学习 吴恩达 cs229个人笔记</a></li>
-<li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/%5BML-Coursera%5D%5B2014%5D%5BAndrew%20Ng%5D/%5B2014%5D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E5%AE%8C%E6%95%B4%E7%89%88v5.1.pdf">9. 机器学习 吴恩达 Coursera个人笔记</a>  </li>
-</ul>
-
-<h2 id="神经网络模型概览">神经网络模型概览</h2>
+<li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/%5BML-CS229%5D%5B2011%5D%5BAndrew%20NG%5D/%5B2011%5D%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E4%B8%AA%E4%BA%BA%E7%AC%94.pdf">8. 机器学习 吴恩达 cs229个人笔记</a>
 
 <ul>
-<li><p><a href="https://blog.csdn.net/qq_35082030/article/details/73368962">1. 一文看懂25个神经网络模型</a></p>
+<li><a href="http://cs229.stanford.edu/">官网（笔记）</a>  </li>
+<li><a href="http://open.163.com/special/opencourse/machinelearning.html">视频（中文字幕）</a></li>
+</ul></li>
+<li><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/%5BML-Coursera%5D%5B2014%5D%5BAndrew%20Ng%5D/%5B2014%5D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E5%AE%8C%E6%95%B4%E7%89%88v5.1.pdf">9. 机器学习 吴恩达 Coursera个人笔记</a>  
 
-<h3 id="cnn">CNN</h3></li>
+<ul>
+<li><a href="https://www.coursera.org/learn/machine-learning">视频（含官方笔记）</a>      </li>
+</ul></li>
+<li><a href="http://www.ai-start.com/dl2017/">10. 深度学习 吴恩达 个人笔记</a>  
 
-<li><p><a href="https://zhuanlan.zhihu.com/p/35388569">1. 94页论文综述卷积神经网络：从基础技术到研究前景</a></p></li>
+<ul>
+<li><a href="http://mooc.study.163.com/smartSpec/detail/1001319001.htm">视频</a></li>
+</ul></li>
 
-<li><p><a href="https://zhuanlan.zhihu.com/p/31006686">2. 从LeNet-5到DenseNet</a></p></li>
+<li><p><a href="https://zhuanlan.zhihu.com/p/21930884">11. 深度学习 李飞飞 已授权个人翻译笔记</a>        </p>
+
+<ul>
+<li><p><a href="http://study.163.com/course/courseMain.htm?courseId=1003223001">视频</a></p>
+
+<h2 id="神经网络模型概览">神经网络模型概览</h2></li>
+</ul></li>
+
+<li><p><a href="https://blog.csdn.net/qq_35082030/article/details/73368962">1. 一文看懂25个神经网络模型</a></p></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/29141828">2. DNN概述论文：详解前馈、卷积和循环神经网络技术</a></p></li>
+</ul>
+
+<h3 id="cnn">CNN</h3>
+
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/35388569">1. 94页论文综述卷积神经网络：从基础技术到研究前景</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/31006686">2. 从LeNet-5到DenseNet</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/35688103">3. CNN变体：图像分类神经网络</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/26652657">4. CNN图像分割简史：从R-CNN到Mask R-CNN（译）</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/28749411">5. 变形卷积核、可分离卷积</a></li>
 </ul>
 
 <h3 id="gan">GAN</h3>
@@ -271,20 +306,32 @@
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/27295635">1. GAN原理学习笔记</a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/24767059">2. GAN学习指南：从原理入门到制作生成Demo</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/29837245">3. 机器之心GitHub项目：GAN完整理论推导与实现</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/35783437?group_id=969598777652420608">4. 极端图像压缩的对抗生成网络</a></li>
 
-<li><p><a href="https://zhuanlan.zhihu.com/p/29837245">3. 机器之心GitHub项目：GAN完整理论推导与实现</a></p>
+<li><p><a href="https://zhuanlan.zhihu.com/p/26491601">5. 千奇百怪的GAN变体</a></p>
 
-<h3 id="lstm">LSTM</h3></li>
+<h3 id="rnn">RNN</h3></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/28054589">完全图解RNN、RNN变体、Seq2Seq、Attention机制</a></p>
+
+<h3 id="rnn之lstm">RNN之LSTM  </h3></li>
 
 <li><p><a href="https://zhuanlan.zhihu.com/p/24018768">1. （译）理解长短期记忆(LSTM) 神经网络</a></p></li>
-</ul>
 
-<h2 id="前沿神经网络">前沿神经网络</h2>
+<li><p><a href="https://zhuanlan.zhihu.com/p/35878575?group_id=970350175025385472">2. 一文读懂LSTM和RNN</a></p></li>
 
-<h3 id="capsnet">CapsNet</h3>
+<li><p><a href="https://zhuanlan.zhihu.com/p/27345523">3. 探索LSTM：基本概念到内部结构</a></p>
 
-<ul>
-<li><a href="https://zhuanlan.zhihu.com/p/30753326">1. 先读懂CapsNet架构然后用TensorFlow实现</a></li>
+<h2 id="前沿神经网络">前沿神经网络    </h2>
+
+<h3 id="resnet">ResNet</h3></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/35985680?group_id=971491939699388416">一文简述ResNet及其多种变体</a></p>
+
+<h3 id="capsnet">CapsNet    </h3></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/30753326">1. 先读懂CapsNet架构然后用TensorFlow实现</a></p></li>
 
 <li><p>[2. CapsNet入门系列]()</p>
 
@@ -315,15 +362,20 @@
 <li><a href="https://zhuanlan.zhihu.com/p/35429054?group_id=966442942538444800">1. [视频讲解]史上最全面的正则化技术总结与分析&ndash;part1</a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/35432128?group_id=966443101011738624">2. [视频讲解]史上最全面的正则化技术总结与分析&ndash;part2</a></li>
 </ul></li>
-</ul>
+
+<li><p><a href="https://blog.csdn.net/chunyun0716/article/category/6188191/2">最优化算法系列（math）</a></p>
+
+<h2 id="梯度问题">梯度问题</h2></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/25631496">神经网络训练中的梯度消失与梯度爆炸</a></p>
 
 <h2 id="深度学习相关算法">深度学习相关算法    </h2>
 
-<h3 id="svd">SVD</h3>
+<h3 id="svd">SVD</h3></li>
 
-<ul>
-<li><a href="https://zhuanlan.zhihu.com/p/30482640">1. 关于奇异值分解SVD的总结（PCA、LDI）</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/29846048">2. 奇异值分解（SVD）</a></li>
+<li><p><a href="https://zhuanlan.zhihu.com/p/30482640">1. 关于奇异值分解SVD的总结（PCA、LDI）</a></p></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/29846048">2. 奇异值分解（SVD）</a></p></li>
 
 <li><p><a href="https://blog.csdn.net/zhongkejingwang/article/details/43053513">3. 奇异值分解(SVD)原理详解及推导</a>    </p>
 
@@ -333,7 +385,37 @@
 
 <li><p><a href="https://www.zhihu.com/question/41979241">2. 什么是迁移学习 (Transfer Learning)？这个领域历史发展前景如何？</a></p></li>
 
-<li><p><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/notes/日常阅读笔记/2018_4_12_迁移学习.pdf">3. 迁移学习个人笔记</a></p></li>
+<li><p><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/notes/日常阅读笔记/2018_4_12_迁移学习.pdf">3. 迁移学习个人笔记</a>  </p>
+
+<h3 id="svm">SVM</h3></li>
+
+<li><p><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E9%80%9A%E4%BF%97%E5%AF%BC%E8%AE%BA%EF%BC%88%E7%90%86%E8%A7%A3SVM%E7%9A%84%E4%B8%89%E5%B1%82%E5%A2%83%E7%95%8C%EF%BC%89LaTeX%E6%9C%80%E6%96%B0%E7%89%88_2015.1.9.pdf">SVM通俗导论 July（本文章是我看过最好的SVM导论）</a></p></li>
+
+<li><p><a href="https://blog.csdn.net/c406495762/article/details/78072313">Python3《机器学习实战》学习笔记（八）：支持向量机原理篇之手撕线性SVM （SMO训练过程总结得清晰易懂）</a></p>
+
+<h3 id="元学习">元学习</h3></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/35869158?group_id=970310501209645056">OpenAI提出新型元学习方法EPG，调整损失函数实现新任务上的快速训练</a>      </p>
+
+<h3 id="强化学习">强化学习</h3></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/25498081">强化学习（Reinforcement Learning）知识整理</a></p></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/34918639">强化学习从入门到放弃的资料</a></p></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/25498081">强化学习入门</a></p>
+
+<ul>
+<li><p><a href="https://zhuanlan.zhihu.com/p/25498081">强化学习入门 第一讲 MDP</a></p>
+
+<h3 id="决策树">决策树</h3></li>
+</ul></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/31404571">说说决策树剪枝算法</a></p>
+
+<h3 id="推荐算法">推荐算法</h3></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/29969721">推荐算法相关的文档整理</a></p></li>
 </ul>
 
 <h2 id="工具平台使用">工具平台使用  </h2>
@@ -342,13 +424,32 @@
 
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/35515805?group_id=967136289941897216">【干货】史上最全的Tensorflow学习资源汇总</a></li>
-<li><a href="https://github.com/hzy46/Deep-Learning-21-Examples">《21个项目玩转深度学习———基于TensorFlow的实践详解》</a></li>
+
+<li><p><a href="https://github.com/hzy46/Deep-Learning-21-Examples">《21个项目玩转深度学习———基于TensorFlow的实践详解》</a>  </p>
+
+<h3 id="mxnet">MXNet</h3></li>
+
+<li><p><a href="https://github.com/Mikoto10032/DeepLearning/blob/master/books/gluon_tutorials_zh（基于MXNet）.pdf">Gluon</a></p>
+
+<h3 id="python3-x">Python3.x</h3></li>
+
+<li><p><a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000">廖雪峰Python教程</a></p></li>
+
+<li><p><a href="http://www.runoob.com/python3/python3-tutorial.html">菜鸟教程</a>                        </p></li>
 </ul>
 
 <h2 id="数据集">数据集  </h2>
 
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/35449783">1. 25个深度学习相关公开数据集</a></li>
+</ul>
+
+<h2 id="to-do-list">To do list:</h2>
+
+<ul>
+<li>继续学习</li>
+<li>将收藏过的文章转移到此项目</li>
+<li>将CS231n官方笔记授权翻译总集篇整合成pdf</li>
 </ul>
 
     </div>
@@ -362,7 +463,7 @@
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-04-13</span>
+    <span class="item-content">2018-04-24</span>
   </p>
   
   <p class="copyright-item">
@@ -378,6 +479,8 @@
       <div class="post-tags">
           
           <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">深度学习</a>
+          
+          <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a>
           
         </div>
 
@@ -401,7 +504,7 @@
     id: 'DeepLearning.md',
     title: '深度学习',
     link: decodeURI(location.href),
-    desc: 'DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua\x2bBengio\x2bIan\x2bGoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Ng 5. 《模式识别与机器学习》 Christopher Bishop 6. 《',
+    desc: 'DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua\x2bBengio\x2bIan\x2bGoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Andrew Ng（吴恩达） 5. 《模式识别与机器',
     owner: '22048593',
     repo: 'https:\/\/github.com\/Mikoto10032\/BlogsComments.git',
     oauth: {
