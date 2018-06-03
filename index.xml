@@ -76,14 +76,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://study.163.com/course/courseMain.htm?courseId=1003223001&#34;&gt;视频&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://speech.ee.ntu.edu.tw/~tlkagk/index.html&#34;&gt;12. 台湾大学（NTU）李宏毅教授课程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://speech.ee.ntu.edu.tw/~tlkagk/index.html&#34;&gt;12. 台湾大学（NTU）李宏毅教授课程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;神经网络模型概览&#34;&gt;神经网络模型概览&lt;/h2&gt;
 
-&lt;h2 id=&#34;神经网络模型概览&#34;&gt;神经网络模型概览&lt;/h2&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_35082030/article/details/73368962&#34;&gt;1. 一文看懂25个神经网络模型&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29141828&#34;&gt;2. DNN概述论文：详解前馈、卷积和循环神经网络技术&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_35082030/article/details/73368962&#34;&gt;1. 一文看懂25个神经网络模型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29141828&#34;&gt;2. DNN概述论文：详解前馈、卷积和循环神经网络技术&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://colah.github.io/&#34;&gt;3. colah&amp;rsquo;s blog&lt;/a&gt;&lt;/p&gt;
 
@@ -239,13 +239,15 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29797089&#34;&gt;TensorFlow的多层LSTM实践&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27087310&#34;&gt;《安娜卡列尼娜》文本生成——利用TensorFlow构建LSTM模型&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27087310&#34;&gt;《安娜卡列尼娜》文本生成——利用TensorFlow构建LSTM模型&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;前沿神经网络&#34;&gt;前沿神经网络    &lt;/h2&gt;
 
-&lt;h3 id=&#34;resnet-深度残差网络&#34;&gt;ResNet(深度残差网络)            &lt;/h3&gt;&lt;/li&gt;
+&lt;h3 id=&#34;resnet-深度残差网络&#34;&gt;ResNet(深度残差网络)            &lt;/h3&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35985680?group_id=971491939699388416&#34;&gt;一文简述ResNet及其多种变体&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35985680?group_id=971491939699388416&#34;&gt;一文简述ResNet及其多种变体&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/lanran2/article/details/79057994&#34;&gt;ResNet解析&lt;/a&gt;&lt;/p&gt;
 
@@ -267,70 +269,55 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34995629&#34;&gt;目标检测模型YOLO v3问世&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35325884?group_id=966229905398362112&#34;&gt;目标检测|YOLOv2原理与实现(附YOLOv3)&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35325884?group_id=966229905398362112&#34;&gt;目标检测|YOLOv2原理与实现(附YOLOv3)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;优化&#34;&gt;优化    &lt;/h2&gt;&lt;/li&gt;
+&lt;h2 id=&#34;优化&#34;&gt;优化    &lt;/h2&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://fa.bianp.net/teaching/2018/eecs227at/&#34;&gt;1. 优化算法纵览&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27449596&#34;&gt;2. 从梯度下降到Adam&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25703402&#34;&gt;3. 从梯度下降到拟牛顿法：盘点训练神经网络的五大学习算法&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35429054?group_id=966442942538444800&#34;&gt;4. 正则化技术总结&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://fa.bianp.net/teaching/2018/eecs227at/&#34;&gt;1. 优化算法纵览&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27449596&#34;&gt;2. 从梯度下降到Adam&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25703402&#34;&gt;3. 从梯度下降到拟牛顿法：盘点训练神经网络的五大学习算法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35429054?group_id=966442942538444800&#34;&gt;4. 正则化技术总结&lt;/a&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35429054?group_id=966442942538444800&#34;&gt;1. [视频讲解]史上最全面的正则化技术总结与分析&amp;ndash;part1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35432128?group_id=966443101011738624&#34;&gt;2. [视频讲解]史上最全面的正则化技术总结与分析&amp;ndash;part2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/chunyun0716/article/category/6188191/2&#34;&gt;5. 最优化算法系列（math）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25631496&#34;&gt;6. 神经网络训练中的梯度消失与梯度爆炸&lt;/a&gt;        &lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36050743&#34;&gt;7. 神经网络的优化及训练&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35888543&#34;&gt;8. 通俗讲解查全率和查准率&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30567264&#34;&gt;9. 激活函数一览&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30922689&#34;&gt;10. Coursera吴恩达《优化深度神经网络》课程笔记（3）&amp;ndash; 超参数调试、Batch正则化和编程框架&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35423404&#34;&gt;11. 机器学习各种熵&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27305237&#34;&gt;12. 距离和相似性度量&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29974820&#34;&gt;13. 机器学习里的黑色艺术：normalization, standardization, regularization&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36101196&#34;&gt;14. LSTM系列的梯度问题&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35027284&#34;&gt;15. 损失函数整理&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/28124810&#34;&gt;16. 详解残差块为何有助于解决梯度弥散问题&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34858971&#34;&gt;17. FAIR何恺明等人提出组归一化：替代批归一化，不受批量大小限制&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/26702482&#34;&gt;18. &amp;lt;深度学习优化策略-1&amp;gt;Batch Normalization（BN）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/33173246&#34;&gt;19. 详解深度学习中的Normalization，不只是BN&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/chunyun0716/article/category/6188191/2&#34;&gt;5. 最优化算法系列（math）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25631496&#34;&gt;6. 神经网络训练中的梯度消失与梯度爆炸&lt;/a&gt;        &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36050743&#34;&gt;7. 神经网络的优化及训练&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35888543&#34;&gt;8. 通俗讲解查全率和查准率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30567264&#34;&gt;9. 激活函数一览&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30922689&#34;&gt;10. Coursera吴恩达《优化深度神经网络》课程笔记（3）&amp;ndash; 超参数调试、Batch正则化和编程框架&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35423404&#34;&gt;11. 机器学习各种熵&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27305237&#34;&gt;12. 距离和相似性度量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29974820&#34;&gt;13. 机器学习里的黑色艺术：normalization, standardization, regularization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36101196&#34;&gt;14. LSTM系列的梯度问题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35027284&#34;&gt;15. 损失函数整理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/28124810&#34;&gt;16. 详解残差块为何有助于解决梯度弥散问题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34858971&#34;&gt;17. FAIR何恺明等人提出组归一化：替代批归一化，不受批量大小限制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/26702482&#34;&gt;18. &amp;lt;深度学习优化策略-1&amp;gt;Batch Normalization（BN）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/33173246&#34;&gt;19. 详解深度学习中的Normalization，不只是BN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;机器学习基础理论&#34;&gt;机器学习基础理论    &lt;/h2&gt;
 
-&lt;h3 id=&#34;信息论&#34;&gt;信息论&lt;/h3&gt;&lt;/li&gt;
+&lt;h3 id=&#34;信息论&#34;&gt;信息论&lt;/h3&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35423404&#34;&gt;1. 机器学习中的各种熵&lt;/a&gt;    &lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32985487&#34;&gt;2. 从香农熵到手推KL散度：纵览机器学习中的信息论&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35423404&#34;&gt;1. 机器学习中的各种熵&lt;/a&gt;    &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32985487&#34;&gt;2. 从香农熵到手推KL散度：纵览机器学习中的信息论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;深度学习相关算法&#34;&gt;深度学习相关算法    &lt;/h2&gt;
 
-&lt;h3 id=&#34;svd&#34;&gt;SVD&lt;/h3&gt;&lt;/li&gt;
+&lt;h3 id=&#34;svd&#34;&gt;SVD&lt;/h3&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30482640&#34;&gt;1. 关于奇异值分解SVD的总结（PCA、LDI）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29846048&#34;&gt;2. 奇异值分解（SVD）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zhongkejingwang/article/details/43053513&#34;&gt;3. 奇异值分解(SVD)原理详解及推导&lt;/a&gt;    &lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30482640&#34;&gt;1. 关于奇异值分解SVD的总结（PCA、LDI）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29846048&#34;&gt;2. 奇异值分解（SVD）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/zhongkejingwang/article/details/43053513&#34;&gt;3. 奇异值分解(SVD)原理详解及推导&lt;/a&gt;    &lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zhongkejingwang/article/details/43083603&#34;&gt;4. SVD在推荐系统中的应用详解以及算法推导&lt;/a&gt;&lt;/p&gt;
 
@@ -472,7 +459,8 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Mr_tyting/article/details/72957853&#34;&gt;Bagging,Boosting,Stacking&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36331115&#34;&gt;人人都懂的EM算法 &lt;/a&gt;                      &lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36331115&#34;&gt;人人都懂的EM算法 &lt;/a&gt;    
+                 &lt;/p&gt;
 
 &lt;h2 id=&#34;工具平台使用&#34;&gt;工具平台使用  &lt;/h2&gt;
 
@@ -501,14 +489,14 @@
 &lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/1o7QlUhO&#34;&gt;3.全唐诗(43030首)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://people.eecs.berkeley.edu/~taesung_park/&#34;&gt;4. 伯克利大学公开数据集&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36835964&#34;&gt;5. ACL 2018资源：100+ 预训练的中文词向量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Embedding/Chinese-Word-Vectors&#34;&gt;6. 预训练中文词向量&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/Embedding/Chinese-Word-Vectors&#34;&gt;6. 预训练中文词向量&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;to-do-list&#34;&gt;To do list:&lt;/h2&gt;
 
-&lt;h2 id=&#34;to-do-list&#34;&gt;To do list:&lt;/h2&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;RNN、2014机器学习个人笔记、Mask R-CNN、RNN、cs231、2011机器学习个人笔记、深度学习&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;将收藏过的文章转移到此项目&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;RNN、2014机器学习个人笔记、Mask R-CNN、RNN、cs231、2011机器学习个人笔记、深度学习&lt;/li&gt;
+&lt;li&gt;将收藏过的文章转移到此项目&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       
