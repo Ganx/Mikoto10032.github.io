@@ -37,15 +37,13 @@
     <item>
       <title>深度学习</title>
       <link>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/deeplearning/</link>
-      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/deeplearning/</guid>
       
         <description>
 
 &lt;h1 id=&#34;deeplearning&#34;&gt;DeepLearning&lt;/h1&gt;
-
-&lt;h1 id=&#34;deeplearning-1&#34;&gt;DeepLearning&lt;/h1&gt;
 
 &lt;h2 id=&#34;入门资料&#34;&gt;入门资料&lt;/h2&gt;
 
@@ -73,14 +71,15 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://mooc.study.163.com/smartSpec/detail/1001319001.htm&#34;&gt;视频&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/21930884&#34;&gt;11. 深度学习 李飞飞 已授权个人翻译笔记&lt;/a&gt;        &lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/21930884&#34;&gt;11. 深度学习 李飞飞 已授权个人翻译笔记&lt;/a&gt;        
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://study.163.com/course/courseMain.htm?courseId=1003223001&#34;&gt;视频&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;http://study.163.com/course/courseMain.htm?courseId=1003223001&#34;&gt;视频&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://speech.ee.ntu.edu.tw/~tlkagk/index.html&#34;&gt;12. 台湾大学（NTU）李宏毅教授课程&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;神经网络模型概览&#34;&gt;神经网络模型概览&lt;/h2&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_35082030/article/details/73368962&#34;&gt;1. 一文看懂25个神经网络模型&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
@@ -88,19 +87,54 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://colah.github.io/&#34;&gt;3. colah&amp;rsquo;s blog&lt;/a&gt;&lt;/p&gt;
 
+&lt;h3 id=&#34;dnn&#34;&gt;DNN&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29141828&#34;&gt;DNN概述论文&lt;/a&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;cnn&#34;&gt;CNN&lt;/h3&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35388569&#34;&gt;1. 94页论文综述卷积神经网络：从基础技术到研究前景&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/39022858&#34;&gt;1. 卷积神经网络工作原理&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/31006686&#34;&gt;2. 从LeNet-5到DenseNet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35388569&#34;&gt;2. 94页论文综述卷积神经网络：从基础技术到研究前景&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35688103&#34;&gt;3. CNN变体：图像分类神经网络&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/31006686&#34;&gt;3. 从LeNet-5到DenseNet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/26652657&#34;&gt;4. CNN图像分割简史：从R-CNN到Mask R-CNN（译）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35688103&#34;&gt;4. CNN变体：图像分类神经网络&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/28749411&#34;&gt;5. 变形卷积核、可分离卷积&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/26652657&#34;&gt;5. CNN图像分割简史：从R-CNN到Mask R-CNN（译）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;h3 id=&#34;gan&#34;&gt;GAN&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/28749411&#34;&gt;6. 变形卷积核、可分离卷积&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34816076&#34;&gt;7. 先理解Mask R-CNN的工作原理，然后构建颜色填充器应用&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32830206&#34;&gt;8. 深度学习之目标检测的前世今生（Mask R-CNN）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35221368&#34;&gt;9. 从VGG到NASNet，一文概览图像分类网络&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35985680&#34;&gt;10. 一文简述ResNet及其多种变体&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32746221&#34;&gt;11. 纵览轻量化卷积神经网络：SqueezeNet、MobileNet、ShuffleNet、Xception&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32304419&#34;&gt;12. CNN模型之ShuffleNet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/23006190&#34;&gt;13. 将CNN引入目标检测的开山之作：R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29434605&#34;&gt;14. 深度学习目标检测模型全面综述：Faster R-CNN、R-FCN和SSD&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36801104&#34;&gt;15. 图像语义分割(Semantic segmentation) Survey&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[16. 人脸检测和识别算法综述]()      &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36621308&#34;&gt;人脸检测算法综述 &lt;/a&gt;          &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32702868&#34;&gt;人脸检测背景介绍和发展现状&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36416906&#34;&gt;人脸识别算法演化史&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/shuzfan/article/details/50358809&#34;&gt;CascadeCNN&lt;/a&gt;  &lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_14845119/article/details/52680940&#34;&gt;MTCNN&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;gan&#34;&gt;GAN  &lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27295635&#34;&gt;1. GAN原理学习笔记&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
@@ -115,14 +149,57 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=0CKeqXl5IY0&amp;amp;feature=youtu.be&#34;&gt;6. 台湾大学李宏毅GAN教程&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/Tutorial_HYLee_GAN.ppt&#34;&gt;PPT&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;rnn&#34;&gt;RNN&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/GAN-Basic%20Idea%20(2017.04.21).pdf&#34;&gt;Basic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/GAN-Improving%20GAN%20(2017.05.05).pdf&#34;&gt;Improving&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/28054589&#34;&gt;完全图解RNN、RNN变体、Seq2Seq、Attention机制&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29882709&#34;&gt;7. 2017年GAN 计算机视觉相关paper汇总&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35030377&#34;&gt;8. 在Keras上实现GAN：构建消除图片模糊的应用&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34711316&#34;&gt;9. CycleGAN：图片风格，想换就换 | ICCV 2017论文解读&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25071913&#34;&gt;10. Wasserstein GAN&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rnn&#34;&gt;RNN      &lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/28054589&#34;&gt;完全图解RNN、RNN变体、Seq2Seq、Attention机制&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/heyongluoyao8/article/details/48636251&#34;&gt;循环神经网络(RNN, Recurrent Neural Networks)介绍&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Dark_Scope/article/details/47056361&#34;&gt;RNN以及LSTM的介绍和公式梳理&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zybuluo.com/hanbingtao/note/541458&#34;&gt;深度学习其五 循环神经网络&lt;/a&gt;                      &lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32582764&#34;&gt;用循环神经网络进行文件无损压缩：斯坦福大学提出DeepZip&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[吴恩达序列建模课程]()&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34309635&#34;&gt;Coursera吴恩达《序列模型》课程笔记（1）&amp;ndash; 循环神经网络（RNN）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34975871&#34;&gt;Coursera吴恩达《序列模型》课程笔记（2）&amp;ndash; NLP &amp;amp; Word Embeddings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35532553&#34;&gt;Coursera吴恩达《序列模型》课程笔记（3）&amp;ndash; Sequence models &amp;amp; Attention mechanism&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[Word2Vec]()&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/pinard/p/7160330.html&#34;&gt;word2vec原理(一) CBOW与Skip-Gram模型基础&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/pinard/p/7243513.html&#34;&gt;word2vec原理(二) 基于Hierarchical Softmax的模型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/pinard/p/7249903.html&#34;&gt;word2vec原理(三) 基于Negative Sampling的模型 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/pinard/p/7278324.html&#34;&gt;用gensim学习word2vec &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[Action]()&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/liuchonge/article/details/78405185?locationNum=8&amp;amp;fps=1&#34;&gt;tensorflow中RNNcell源码分析以及自定义RNNCell的方法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/28196873&#34;&gt;TensorFlow中RNN实现的正确打开方式&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27906426&#34;&gt;TensorFlow RNN 代码&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;lstm&#34;&gt;LSTM  &lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/24018768&#34;&gt;1. （译）理解长短期记忆(LSTM) 神经网络&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
@@ -130,12 +207,22 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27345523&#34;&gt;3. 探索LSTM：基本概念到内部结构&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;[4. 翻译：深入理解LSTM系列]()            &lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/matrix_space/article/details/53374040&#34;&gt;4. 翻译：深入理解LSTM系列&lt;/a&gt;                      &lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/matrix_space/article/details/53374040&#34;&gt;深入理解 LSTM 网络 (一)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/matrix_space/article/details/53376870&#34;&gt;深入理解 LSTM 网络 (二)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/matrix_space/article/details/53376870&#34;&gt;深入理解 LSTM 网络 (二)&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32085405&#34;&gt;LSTM&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[Action]()&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/33186759&#34;&gt;用tensorflow LSTM如何预测股票价格&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29797089&#34;&gt;TensorFlow的多层LSTM实践&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27087310&#34;&gt;《安娜卡列尼娜》文本生成——利用TensorFlow构建LSTM模型&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;前沿神经网络&#34;&gt;前沿神经网络    &lt;/h2&gt;
 
@@ -166,7 +253,7 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35325884?group_id=966229905398362112&#34;&gt;目标检测|YOLOv2原理与实现(附YOLOv3)&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;优化算法&#34;&gt;优化算法    &lt;/h2&gt;&lt;/li&gt;
+&lt;h2 id=&#34;优化&#34;&gt;优化    &lt;/h2&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://fa.bianp.net/teaching/2018/eecs227at/&#34;&gt;1. 优化算法纵览&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
@@ -174,7 +261,7 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25703402&#34;&gt;3. 从梯度下降到拟牛顿法：盘点训练神经网络的五大学习算法&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;[4. 正则化技术总结]()&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35429054?group_id=966442942538444800&#34;&gt;4. 正则化技术总结&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35429054?group_id=966442942538444800&#34;&gt;1. [视频讲解]史上最全面的正则化技术总结与分析&amp;ndash;part1&lt;/a&gt;&lt;/li&gt;
@@ -183,7 +270,41 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/chunyun0716/article/category/6188191/2&#34;&gt;5. 最优化算法系列（math）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25631496&#34;&gt;6. 神经网络训练中的梯度消失与梯度爆炸&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25631496&#34;&gt;6. 神经网络训练中的梯度消失与梯度爆炸&lt;/a&gt;        &lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36050743&#34;&gt;7. 神经网络的优化及训练&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35888543&#34;&gt;8. 通俗讲解查全率和查准率&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30567264&#34;&gt;9. 激活函数一览&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30922689&#34;&gt;10. Coursera吴恩达《优化深度神经网络》课程笔记（3）&amp;ndash; 超参数调试、Batch正则化和编程框架&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35423404&#34;&gt;11. 机器学习各种熵&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27305237&#34;&gt;12. 距离和相似性度量&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29974820&#34;&gt;13. 机器学习里的黑色艺术：normalization, standardization, regularization&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36101196&#34;&gt;14. LSTM系列的梯度问题&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35027284&#34;&gt;15. 损失函数整理&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/28124810&#34;&gt;16. 详解残差块为何有助于解决梯度弥散问题&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34858971&#34;&gt;17. FAIR何恺明等人提出组归一化：替代批归一化，不受批量大小限制&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/26702482&#34;&gt;18. &amp;lt;深度学习优化策略-1&amp;gt;Batch Normalization（BN）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/33173246&#34;&gt;19. 详解深度学习中的Normalization，不只是BN&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;机器学习基础理论&#34;&gt;机器学习基础理论    &lt;/h2&gt;
+
+&lt;h3 id=&#34;信息论&#34;&gt;信息论&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35423404&#34;&gt;1. 机器学习中的各种熵&lt;/a&gt;    &lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32985487&#34;&gt;2. 从香农熵到手推KL散度：纵览机器学习中的信息论&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;深度学习相关算法&#34;&gt;深度学习相关算法    &lt;/h2&gt;
 
@@ -218,16 +339,62 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25498081&#34;&gt;强化学习入门&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25498081&#34;&gt;强化学习入门 第一讲 MDP&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;推荐算法&#34;&gt;推荐算法&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25498081&#34;&gt;强化学习入门 第一讲 MDP&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29969721&#34;&gt;推荐算法相关的文档整理&lt;/a&gt;                  &lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35882937&#34;&gt;强化学习——从Q-Learning到DQN到底发生了什么？&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;h2 id=&#34;机器学习相关算法&#34;&gt;机器学习相关算法&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35688924&#34;&gt;从强化学习到深度强化学习（上）&lt;/a&gt;                  &lt;/p&gt;&lt;/li&gt;
 
-&lt;h3 id=&#34;决策树&#34;&gt;决策树&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35965070&#34;&gt;从强化学习到深度强化学习（下）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/37048004&#34;&gt;一文带你理解Q-Learning的搜索策略&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;马尔科夫决策&#34;&gt;马尔科夫决策&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35124726&#34;&gt;马尔科夫决策过程之Markov Processes（马尔科夫过程）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35231424&#34;&gt;马尔科夫决策过程之Markov Reward Process（马尔科夫奖励过程）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35261164&#34;&gt;马尔科夫决策过程之Bellman Equation（贝尔曼方程）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35354956&#34;&gt;马尔科夫决策过程之Markov Decision Process(马尔科夫决策过程)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35373905&#34;&gt;马尔科夫决策过程之最优价值函数与最优策略&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;推荐算法&#34;&gt;推荐算法      &lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/29969721&#34;&gt;推荐算法相关的文档整理&lt;/a&gt;              &lt;/p&gt;
+
+&lt;h3 id=&#34;自然语言处理-nlp&#34;&gt;自然语言处理（NLP）&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35648927&#34;&gt;基于word2vec训练词向量(一)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35889385&#34;&gt;基于word2vec训练词向量(二)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35041012&#34;&gt;自然语言处理中的自注意力机制（Self-Attention Mechanism）&lt;/a&gt;      &lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/27830489&#34;&gt;YJango的Word Embedding&amp;ndash;介绍&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/37168143&#34;&gt;CMU&amp;amp;谷歌大脑提出新型问答模型QANet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;物体检测相关算法&#34;&gt;物体检测相关算法&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/iamoldpan/article/details/78799857&#34;&gt;深度学习中IU、IoU(Intersection over Union)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.learnopencv.com/selective-search-for-object-detection-cpp-python/&#34;&gt;Selective Search for Object Detection &lt;/a&gt;&lt;a href=&#34;https://blog.csdn.net/guoyunfei20/article/details/78723646&#34;&gt;（译文）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/shuzfan/article/details/52711706&#34;&gt;NMS——非极大值抑制&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zijin0802034/article/details/77685438&#34;&gt;边框回归(Bounding Box Regression)详解&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;机器学习相关算法&#34;&gt;机器学习相关算法    &lt;/h2&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34534004&#34;&gt;ID3、C4.5、CART、随机森林、bagging、boosting、Adaboost、GBDT、xgboost算法总结&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/en-heng/p/5013995.html&#34;&gt;数据挖掘十大算法简要说明&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;决策树-decision-tree&#34;&gt;决策树(Decision Tree)      &lt;/h3&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/c406495762/article/details/75663451&#34;&gt;Python3《机器学习实战》学习笔记（二）：决策树基础篇之让我们从相亲说起&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
@@ -239,9 +406,13 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/31404571&#34;&gt;说说决策树剪枝算法&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/namelessml/article/details/52595066&#34;&gt;机器学习实战 第九章 树回归&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/namelessml/article/details/52595066&#34;&gt;机器学习实战 第九章 树回归&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;h3 id=&#34;svm&#34;&gt;SVM&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/u014688145/article/details/53212112&#34;&gt;决策树值ID3、C4.5实现&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/u014688145/article/details/53326910&#34;&gt;决策树值CART实现&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;支持向量机-svm&#34;&gt;支持向量机(SVM)    &lt;/h3&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E9%80%9A%E4%BF%97%E5%AF%BC%E8%AE%BA%EF%BC%88%E7%90%86%E8%A7%A3SVM%E7%9A%84%E4%B8%89%E5%B1%82%E5%A2%83%E7%95%8C%EF%BC%89LaTeX%E6%9C%80%E6%96%B0%E7%89%88_2015.1.9.pdf&#34;&gt;SVM通俗导论 July（本文章是我看过最好的SVM导论）&lt;/a&gt;      &lt;/p&gt;&lt;/li&gt;
 
@@ -249,7 +420,41 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/leonis_v/article/details/50688766&#34;&gt;svm核函数的理解和选择&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/xiaowei_cqu/article/details/35993729&#34;&gt;SVM核函数&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/huang1024rui/article/details/51510611&#34;&gt;核函数和径向基核函数 (Radial Basis Function)&amp;ndash;RBF&lt;/a&gt;                        &lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/xiaowei_cqu/article/details/35993729&#34;&gt;SVM核函数&lt;/a&gt;        &lt;/p&gt;
+
+&lt;h3 id=&#34;标签传播算法-label-propagation-algorithm&#34;&gt;标签传播算法(Label Propagation Algorithm)    &lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zouxy09/article/details/49105265&#34;&gt;标签传播算法（Label Propagation）及Python实现&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/Mikoto10032/DeepLearning/blob/master/books/Semi-Supervised%20Learning%20with%20Graphs.pdf&#34;&gt;参考资料&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;蒙塔卡罗搜索树&#34;&gt;蒙塔卡罗搜索树&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34950988&#34;&gt;蒙特卡洛树搜索入门指南&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;gbdt&#34;&gt;GBDT&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35645973&#34;&gt;LightGBM大战XGBoost&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34698733&#34;&gt;概述XGBoost、Light GBM和CatBoost的同与不同&lt;/a&gt;    &lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36339161&#34;&gt;梯度提升决策树&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30339807&#34;&gt;GBDT原理及应用&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/31654000&#34;&gt;XGBOOST原理篇&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;集成-em&#34;&gt;集成(EM)&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_30189255/article/details/51532442&#34;&gt;集成学习法之bagging方法和boosting方法&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Mr_tyting/article/details/72957853&#34;&gt;Bagging,Boosting,Stacking&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36331115&#34;&gt;人人都懂的EM算法 &lt;/a&gt;                      &lt;/p&gt;
 
 &lt;h2 id=&#34;工具平台使用&#34;&gt;工具平台使用  &lt;/h2&gt;
 
@@ -274,14 +479,18 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35449783&#34;&gt;1. 25个深度学习相关公开数据集&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35423943&#34;&gt;2. 自然语言处理（NLP）数据集&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/1o7QlUhO&#34;&gt;3.全唐诗(43030首)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://people.eecs.berkeley.edu/~taesung_park/&#34;&gt;4. 伯克利大学公开数据集&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36835964&#34;&gt;5. ACL 2018资源：100+ 预训练的中文词向量&lt;/a&gt;&lt;/li&gt;
 
-&lt;h2 id=&#34;to-do-list&#34;&gt;To do list:&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/Embedding/Chinese-Word-Vectors&#34;&gt;6. 预训练中文词向量&lt;/a&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;GAN、信息熵、2014机器学习个人笔记、2011机器学习个人笔记、深度学习&lt;/li&gt;
-&lt;li&gt;将收藏过的文章转移到此项目&lt;/li&gt;
-&lt;li&gt;将CS231n官方笔记授权翻译总集篇整合成pdf&lt;/li&gt;
+&lt;h2 id=&#34;to-do-list&#34;&gt;To do list:&lt;/h2&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;RNN、2014机器学习个人笔记、Mask R-CNN、RNN、cs231、2011机器学习个人笔记、深度学习&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;将收藏过的文章转移到此项目&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       

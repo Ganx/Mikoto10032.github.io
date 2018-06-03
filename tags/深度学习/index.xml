@@ -6,7 +6,7 @@
     <description>Recent content in 深度学习 on Lianghaozan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mikoto10032.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>深度学习</title>
       <link>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/deeplearning/</link>
-      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/deeplearning/</guid>
-      <description>DeepLearning DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua+Bengio+Ian+GoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Andrew Ng（吴恩达） 5. 《模式识别与机</description>
+      <description>DeepLearning 入门资料 1. 《机器学习》 周志华 2. 《深度学习》 Yoshua+Bengio+Ian+GoodFellow 3. 《神经网络与深度学习》 Michael Nielsen 4. 《斯坦福大学深度学习基础教程》 Andrew Ng（吴恩达） 5. 《模式识别与机器</description>
     </item>
     
   </channel>
