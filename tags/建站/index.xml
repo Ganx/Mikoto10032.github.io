@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>建站 on LiangHaozan的个人博客</title>
+    <link>https://mikoto10032.github.io/tags/%E5%BB%BA%E7%AB%99/</link>
+    <description>Recent content in 建站 on LiangHaozan的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikoto10032.github.io/tags/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub IO配合HuGo搭建个人静态博客</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/github-io%E9%85%8D%E5%90%88hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/github-io%E9%85%8D%E5%90%88hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

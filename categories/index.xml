@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Lianghaozan</title>
+    <title>Categories on LiangHaozan的个人博客</title>
     <link>https://mikoto10032.github.io/categories/</link>
-    <description>Recent content in Categories on Lianghaozan</description>
+    <description>Recent content in Categories on LiangHaozan的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
@@ -16,6 +16,15 @@
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mikoto10032.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>程序员那些事</title>
+      <link>https://mikoto10032.github.io/categories/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/categories/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
       <description></description>
     </item>
     
