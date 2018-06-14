@@ -6,7 +6,7 @@
     <description>Recent content on LiangHaozan的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 21:38:52 +0800</lastBuildDate>
     
         <atom:link href="https://mikoto10032.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>About</title>
       <link>https://mikoto10032.github.io/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      <pubDate>Wed, 06 Jun 2018 21:38:52 +0800</pubDate>
       
       <guid>https://mikoto10032.github.io/about/</guid>
       
@@ -35,11 +35,225 @@
     <item>
       <title>GitHub IO配合HuGo搭建个人静态博客</title>
       <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/github-io%E9%85%8D%E5%90%88hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/github-io%E9%85%8D%E5%90%88hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</guid>
       
-        <description></description>
+        <description>
+
+&lt;h1 id=&#34;准备工作&#34;&gt;准备工作&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;必须创建一个仓库，名称为&lt;strong&gt;username.github.io&lt;/strong&gt;，创建过程参考&lt;a href=&#34;https://keysaim.github.io/post/blog/2017-08-15-how-to-setup-your-github-io-blog/&#34;&gt;该博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;创建一个仓库用来存放博客,名称随意，作者这里就命名为&lt;strong&gt;blogs&lt;/strong&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;创建一个仓库用来存放博客的评论（如果想要添加评论功能），作者这里就命名为&lt;strong&gt;BlogsComments&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;开始搭建&#34;&gt;开始搭建&lt;/h1&gt;
+
+&lt;h2 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h2&gt;
+
+&lt;h3 id=&#34;windows用户&#34;&gt;Windows用户&lt;/h3&gt;
+
+&lt;p&gt;如果你安装了&lt;strong&gt;Chocolatey&lt;/strong&gt;，那么你就可以执行如下命令来一键安装：&lt;code&gt;choco install hugo -confirm&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;否则，就要手动安装：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;创建相应文件夹&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;创建 D:\Hugo 文件夹&lt;/li&gt;
+&lt;li&gt;创建 D:\Hugo\bin 文件夹&lt;/li&gt;
+&lt;li&gt;创建 D:\Hugo\Sites 文件夹&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;下载安装Hugo
+
+&lt;ul&gt;
+&lt;li&gt;下载Windows版本最新的&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Release&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;将文件解压到 D:\Hugo\bin\&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;将exe可执行文件重命名为&lt;strong&gt;hugo.exe&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;将hugo.exe的全路径添加至你的系统环境变量，确认你能在cmd窗口下执行&lt;code&gt;hugo help&lt;/code&gt;命令&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;至此，Hugo安装完毕&lt;/p&gt;
+
+&lt;h3 id=&#34;mac用户&#34;&gt;MAC用户&lt;/h3&gt;
+
+&lt;p&gt;Hugo安装十分简单，在MAC的终端执行命令：
+&lt;code&gt;brew install hugo&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;测试hugo&#34;&gt;测试Hugo&lt;/h2&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;cmd下依次执行如下命令&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cd C:\Hugo\Sites&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo new site example.com&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;现在生成了C:\Hugo\Sites\example.com的目录&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;可以本地查看静态网页&lt;/p&gt;
+
+&lt;h2 id=&#34;用hugo建站&#34;&gt;用Hugo建站&lt;/h2&gt;
+
+&lt;h3 id=&#34;初始化博客站&#34;&gt;初始化博客站&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;hugo new site blogs&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;git-init&#34;&gt;git init&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;cd blogs&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;git init&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;指定github源&#34;&gt;指定github源&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;git remote add origin git@github.com:Mikoto10032/blogs.git&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;添加主题&#34;&gt;添加主题&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;git submodule add -b master https://github.com/xianmin/hugo-theme-jane.git themes/jane
+cp -r themes/jane/exampleSite/content ./            
+cp themes/jane/exampleSite/config.toml ./
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;本地测试&#34;&gt;本地测试&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt;&lt;br /&gt;
+打开浏览器，访问&lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;修改默认配置-config-toml&#34;&gt;修改默认配置（config.toml）&lt;/h2&gt;
+
+&lt;h3 id=&#34;修改baseurl&#34;&gt;修改baseurl&lt;/h3&gt;
+
+&lt;p&gt;baseURL是你博客最终部署的网站的url，基于github.io的话就应该是这样的&lt;a href=&#34;https://Mikoto10032.github.io/&#34;&gt;https://Mikoto10032.github.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;启用gitment评论&#34;&gt;启用gitment评论&lt;/h3&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;申请&lt;a href=&#34;https://github.com/settings/applications/new&#34;&gt;OAuth application&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Application name填写应用名称，随意&lt;/li&gt;
+&lt;li&gt;Homepage URL，主页地址，不太重要，建议填写博客地址&lt;/li&gt;
+&lt;li&gt;Application description，随意&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authorization callback URL&lt;/strong&gt;，务必填写&lt;a href=&#34;https://Mikoto10032.github.io/&#34;&gt;https://Mikoto10032.github.io/&lt;/a&gt;,即是你的github.io的地址&lt;/li&gt;
+&lt;li&gt;在&lt;a href=&#34;https://github.com/settings/developers&#34;&gt;https://github.com/settings/developers&lt;/a&gt;可以查看你的授权账号和授权密码&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;配置params.gitment&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+owner = &amp;quot;Mikoto10032&amp;quot;              # Your GitHub ID，例如Mikoto10032
+repo = &amp;quot;BlogsComments&amp;quot;               # The repo to store comments
+clientId = &amp;quot;xxxx&amp;quot;           # Your client ID
+clientSecret = &amp;quot;xxxx&amp;quot;       # Your client secret
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;修改博文显示数量&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;paginate = 15               # 首页每页显示的文章数
+archive-paginate = 50       # 归档、标签、分类每页显示的文章数目
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;修改语言&lt;br /&gt;
+修改成中文：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;defaultContentLanguage = &amp;quot;zh-cn&amp;quot;
+[Languages.zh-cn]
+languageCode = &amp;quot;zh-cn&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;编辑博客&#34;&gt;编辑博客&lt;/h2&gt;
+
+&lt;p&gt;默认情况下，Jane主题将博文放在content/post/下面，你需要在这下面编辑你的博文。Hugo是支持分目录的，这点非常好&lt;br /&gt;
+博客的头部可以这样子写：&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;date: 2018-03-22
+title: &amp;ldquo;如何在github.io搭建Hugo博客&amp;rdquo;
+tags:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;教程&lt;/li&gt;
+&lt;li&gt;github
+categories:&lt;/li&gt;
+&lt;li&gt;github
+comment: true
+&amp;mdash;
+编辑完成后可以git提交：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;git add xxxx
+git commit -m &amp;ldquo;YOUR COMMIT MESSAGE&amp;rdquo;
+git push origin master&lt;/p&gt;
+
+&lt;h2 id=&#34;部署博客站&#34;&gt;部署博客站&lt;/h2&gt;
+
+&lt;h3 id=&#34;添加github-io&#34;&gt;添加github.io&lt;/h3&gt;
+
+&lt;p&gt;当前工作目录是Sites\blogs&lt;/p&gt;
+
+&lt;p&gt;git submodule add -b master git@github.com:keysaim/keysaim.github.io.git public
+这里将其作为submodule添加进来，且放到public目录下面，public目录是Hugo生成静态文件的地方，这样的话咱们就可以把生成出来的静态文件直接上传到你的&lt;username&gt;.github.io的repo里面了&lt;/p&gt;
+
+&lt;h3 id=&#34;生成静态博客站&#34;&gt;生成静态博客站&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;hugo&lt;/code&gt;
+直接运行hugo命令，就会在public目录下生成静态博客站。&lt;/p&gt;
+
+&lt;h3 id=&#34;提交&#34;&gt;提交&lt;/h3&gt;
+
+&lt;p&gt;cd public
+git add .
+git commit -m &amp;ldquo;YOUR COMMIT MESSAGE&amp;rdquo;
+git push origin master&lt;/p&gt;
+
+&lt;h3 id=&#34;查看你的github-io博客站&#34;&gt;查看你的github.io博客站&lt;/h3&gt;
+
+&lt;p&gt;正常情况下，过一会你就可以看到你基于Hugo的github.io博客站了，作者的是&lt;a href=&#34;https://mikoto10032.github.io&#34;&gt;https://mikoto10032.github.io&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;日常操作流程&#34;&gt;日常操作流程&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;日常操作流程：
+cd blogs
+content下写好文章
+hugo
+git add .
+git commit
+git push origin master
+cd public
+git add .
+git commit
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;至此，恭喜你已经完成了你的Hugo博客站了。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Markdown编辑器推荐</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/markdown%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/markdown%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;工具整理&#34;&gt;工具整理&lt;/h1&gt;
+
+&lt;p&gt;参考&lt;a href=&#34;https://blog.csdn.net/bat67/article/details/72804251&#34;&gt;https://blog.csdn.net/bat67/article/details/72804251&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;常用语法说明&#34;&gt;常用语法说明&lt;/h1&gt;
+
+&lt;p&gt;参考&lt;a href=&#34;https://blog.csdn.net/skykingf/article/details/45536231&#34;&gt;https://blog.csdn.net/skykingf/article/details/45536231&lt;/a&gt;&lt;/p&gt;
+</description>
       
     </item>
     
