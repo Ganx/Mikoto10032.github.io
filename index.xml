@@ -661,17 +661,16 @@ git push origin master
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_30189255/article/details/51532442&#34;&gt;集成学习法之bagging方法和boosting方法&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/Mr_tyting/article/details/72957853&#34;&gt;Bagging,Boosting,Stacking&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36331115&#34;&gt;人人都懂的EM算法 &lt;/a&gt;    
-                 &lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36331115&#34;&gt;人人都懂的EM算法 &lt;/a&gt;    &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;工具平台使用&#34;&gt;工具平台使用  &lt;/h2&gt;
 
-&lt;h3 id=&#34;tensorflow&#34;&gt;Tensorflow&lt;/h3&gt;&lt;/li&gt;
+&lt;h3 id=&#34;tensorflow&#34;&gt;Tensorflow&lt;/h3&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35515805?group_id=967136289941897216&#34;&gt;【干货】史上最全的Tensorflow学习资源汇总&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/hzy46/Deep-Learning-21-Examples&#34;&gt;《21个项目玩转深度学习———基于TensorFlow的实践详解》&lt;/a&gt;  &lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35515805?group_id=967136289941897216&#34;&gt;【干货】史上最全的Tensorflow学习资源汇总&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hzy46/Deep-Learning-21-Examples&#34;&gt;《21个项目玩转深度学习———基于TensorFlow的实践详解》&lt;/a&gt;  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;mxnet&#34;&gt;MXNet&lt;/h3&gt;
