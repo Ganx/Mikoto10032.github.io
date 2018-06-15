@@ -85,7 +85,7 @@
 
 <meta itemprop="datePublished" content="2018-06-14T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-06-14T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1443">
+<meta itemprop="wordCount" content="1445">
 
 
 
@@ -191,7 +191,7 @@
               <a href="/categories/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/"> 程序员那些事 </a>
             
           </div>
-        <span class="more-meta"> 1443 words </span>
+        <span class="more-meta"> 1445 words </span>
         <span class="more-meta"> 3 min read </span>
       </div>
     </header>
@@ -249,8 +249,8 @@
 <ul>
 <li>必须创建一个仓库，名称为<strong>username.github.io</strong>，创建过程参考<a href="https://keysaim.github.io/post/blog/2017-08-15-how-to-setup-your-github-io-blog/">该博客</a></li>
 <li>创建一个仓库用来存放博客,名称随意，作者这里就命名为<strong>blogs</strong></li>
-
-<li><p>创建一个仓库用来存放博客的评论（如果想要添加评论功能），作者这里就命名为<strong>BlogsComments</strong></p>
+<li>创建一个仓库用来存放博客的评论（如果想要添加评论功能），作者这里就命名为<strong>BlogsComments</strong><br /></li>
+</ul>
 
 <h1 id="开始搭建">开始搭建</h1>
 
@@ -258,8 +258,7 @@
 
 <h3 id="windows用户">Windows用户</h3>
 
-<p>如果你安装了<strong>Chocolatey</strong>，那么你就可以执行如下命令来一键安装：<code>choco install hugo -confirm</code></p></li>
-</ul>
+<p>如果你安装了<strong>Chocolatey</strong>，那么你就可以执行如下命令来一键安装：<code>choco install hugo -confirm</code></p>
 
 <p>否则，就要手动安装：</p>
 
@@ -279,26 +278,26 @@
 <li>将exe可执行文件重命名为<strong>hugo.exe</strong></li>
 <li>将hugo.exe的全路径添加至你的系统环境变量，确认你能在cmd窗口下执行<code>hugo help</code>命令</li>
 </ul></li>
-
-<li><p>至此，Hugo安装完毕</p>
+<li>至此，Hugo安装完毕</li>
+</ul>
 
 <h3 id="mac用户">MAC用户</h3>
 
 <p>Hugo安装十分简单，在MAC的终端执行命令：
 <code>brew install hugo</code></p>
 
-<h2 id="测试hugo">测试Hugo</h2></li>
+<h2 id="测试hugo">测试Hugo</h2>
 
-<li><p>cmd下依次执行如下命令</p>
+<ul>
+<li>cmd下依次执行如下命令<br />
 
 <ul>
 <li><code>cd C:\Hugo\Sites</code></li>
 <li><code>hugo new site example.com</code></li>
 </ul></li>
-
-<li><p>现在生成了C:\Hugo\Sites\example.com的目录</p></li>
-
-<li><p>可以本地查看静态网页</p>
+<li>现在生成了C:\Hugo\Sites\example.com的目录</li>
+<li>可以本地查看静态网页</li>
+</ul>
 
 <h2 id="用hugo建站">用Hugo建站</h2>
 
@@ -306,21 +305,24 @@
 
 <p><code>hugo new site blogs</code></p>
 
-<h3 id="git-init">git init</h3></li>
+<h3 id="git-init">git init</h3>
 
-<li><p><code>cd blogs</code></p></li>
+<ul>
+<li><code>cd blogs</code></li>
+<li><code>git init</code></li>
+</ul>
 
-<li><p><code>git init</code></p>
+<h3 id="指定github源">指定github源</h3>
 
-<h3 id="指定github源">指定github源</h3></li>
-
-<li><p><code>git remote add origin git@github.com:Mikoto10032/blogs.git</code></p>
+<ul>
+<li><code>git remote add origin git@github.com:Mikoto10032/blogs.git</code></li>
+</ul>
 
 <h2 id="添加主题">添加主题</h2>
 
-<pre><code>git submodule add -b master https://github.com/xianmin/hugo-theme-jane.git themes/jane
-cp -r themes/jane/exampleSite/content ./            
-cp themes/jane/exampleSite/config.toml ./
+<pre><code>    git submodule add -b master https://github.com/xianmin/hugo-theme-jane.git themes/jane
+    cp -r themes/jane/exampleSite/content ./            
+    cp themes/jane/exampleSite/config.toml ./
 </code></pre>
 
 <h2 id="本地测试">本地测试</h2>
@@ -334,9 +336,10 @@ cp themes/jane/exampleSite/config.toml ./
 
 <p>baseURL是你博客最终部署的网站的url，基于github.io的话就应该是这样的<a href="https://Mikoto10032.github.io/">https://Mikoto10032.github.io/</a></p>
 
-<h3 id="启用gitment评论">启用gitment评论</h3></li>
+<h3 id="启用gitment评论">启用gitment评论</h3>
 
-<li><p>申请<a href="https://github.com/settings/applications/new">OAuth application</a></p>
+<ul>
+<li>申请<a href="https://github.com/settings/applications/new">OAuth application</a><br />
 
 <ul>
 <li>Application name填写应用名称，随意</li>
@@ -367,32 +370,32 @@ archive-paginate = 50       # 归档、标签、分类每页显示的文章数�
 <pre><code>defaultContentLanguage = &quot;zh-cn&quot;
 [Languages.zh-cn]
 languageCode = &quot;zh-cn&quot;
-</code></pre>
+</code></pre></li>
+</ul>
 
 <h2 id="编辑博客">编辑博客</h2>
 
 <p>默认情况下，Jane主题将博文放在content/post/下面，你需要在这下面编辑你的博文。Hugo是支持分目录的，这点非常好<br />
 博客的头部可以这样子写：</p>
 
-<hr />
+<pre><code>    ---
+    date: 2018-03-22
+    title: &quot;如何在github.io搭建Hugo博客&quot;
+    tags:
+    - 教程
+    - github
+    categories:
+    - github
+    comment: true
+    ---
+</code></pre>
 
-<p>date: 2018-03-22
-title: &ldquo;如何在github.io搭建Hugo博客&rdquo;
-tags:</p>
+<p>编辑完成后可以git提交：</p>
 
-<ul>
-<li>教程</li>
-<li>github
-categories:</li>
-<li>github
-comment: true
-&mdash;
-编辑完成后可以git提交：</li>
-</ul>
-
-<p>git add xxxx
-git commit -m &ldquo;YOUR COMMIT MESSAGE&rdquo;
-git push origin master</p>
+<pre><code>git add xxxx
+git commit -m &quot;YOUR COMMIT MESSAGE&quot;
+git push origin master
+</code></pre>
 
 <h2 id="部署博客站">部署博客站</h2>
 
@@ -400,8 +403,10 @@ git push origin master</p>
 
 <p>当前工作目录是Sites\blogs</p>
 
-<p>git submodule add -b master git@github.com:keysaim/keysaim.github.io.git public
-这里将其作为submodule添加进来，且放到public目录下面，public目录是Hugo生成静态文件的地方，这样的话咱们就可以把生成出来的静态文件直接上传到你的<username>.github.io的repo里面了</p>
+<pre><code>git submodule add -b master git@github.com:keysaim/keysaim.github.io.git public
+</code></pre>
+
+<p>这里将其作为submodule添加进来，且放到public目录下面，public目录是Hugo生成静态文件的地方，这样的话咱们就可以把生成出来的静态文件直接上传到你的<username>.github.io的repo里面了</p>
 
 <h3 id="生成静态博客站">生成静态博客站</h3>
 
@@ -410,15 +415,15 @@ git push origin master</p>
 
 <h3 id="提交">提交</h3>
 
-<p>cd public
+<pre><code>cd public
 git add .
-git commit -m &ldquo;YOUR COMMIT MESSAGE&rdquo;
-git push origin master</p>
+git commit -m &quot;YOUR COMMIT MESSAGE&quot;
+git push origin master
+</code></pre>
 
 <h3 id="查看你的github-io博客站">查看你的github.io博客站</h3>
 
-<p>正常情况下，过一会你就可以看到你基于Hugo的github.io博客站了，作者的是<a href="https://mikoto10032.github.io">https://mikoto10032.github.io</a></p></li>
-</ul>
+<p>正常情况下，过一会你就可以看到你基于Hugo的github.io博客站了，作者的是<a href="https://mikoto10032.github.io">https://mikoto10032.github.io</a></p>
 
 <h2 id="日常操作流程">日常操作流程</h2>
 
