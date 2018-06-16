@@ -33,6 +33,43 @@
     </item>
     
     <item>
+      <title>Java技术路线及Spring相关教程</title>
+      <link>https://mikoto10032.github.io/post/java/springspringboot%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 16 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/java/springspringboot%E6%95%99%E7%A8%8B/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;java-web-技术路线&#34;&gt;Java Web 技术路线&lt;/h1&gt;
+
+&lt;h2 id=&#34;其一&#34;&gt;其一&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/4zaVA7Z.jpg&#34; alt=&#34;Java工程师学习路线其一&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;其二&#34;&gt;其二&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ynH4P42.jpg&#34; alt=&#34;Java工程师学习路线其二&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;spring&#34;&gt;Spring&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.jikexueyuan.com/project/spring/annotation-based-configuration.html&#34;&gt;http://wiki.jikexueyuan.com/project/spring/annotation-based-configuration.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yiibai.com/spring/spring-tutorial-for-beginners.html&#34;&gt;https://www.yiibai.com/spring/spring-tutorial-for-beginners.html&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;springboot&#34;&gt;SpringBoot&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yiibai.com/spring-boot/&#34;&gt;https://www.yiibai.com/spring-boot/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ityouknow.com/spring-boot.html&#34;&gt;http://www.ityouknow.com/spring-boot.html&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tengj.top/tags/Spring-Boot/&#34;&gt;http://tengj.top/tags/Spring-Boot/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>GitHub IO配合HuGo搭建个人静态博客</title>
       <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/github-io%E9%85%8D%E5%90%88hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
@@ -57,26 +94,18 @@
 
 &lt;p&gt;如果你安装了&lt;strong&gt;Chocolatey&lt;/strong&gt;，那么你就可以执行如下命令来一键安装：&lt;code&gt;choco install hugo -confirm&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;否则，就要手动安装：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;创建相应文件夹&lt;br /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;创建 D:\Hugo 文件夹&lt;/li&gt;
-&lt;li&gt;创建 D:\Hugo\bin 文件夹&lt;/li&gt;
-&lt;li&gt;创建 D:\Hugo\Sites 文件夹&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;下载安装Hugo
-
-&lt;ul&gt;
-&lt;li&gt;下载Windows版本最新的&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Release&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;将文件解压到 D:\Hugo\bin\&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;将exe可执行文件重命名为&lt;strong&gt;hugo.exe&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;将hugo.exe的全路径添加至你的系统环境变量，确认你能在cmd窗口下执行&lt;code&gt;hugo help&lt;/code&gt;命令&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;至此，Hugo安装完毕&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;否则，就要手动安装：&lt;br /&gt;
+* 安装&lt;a href=&#34;https://golang.org/doc/install?download=go1.10.3.windows-amd64.msi&#34;&gt;Go&lt;/a&gt;
+* 创建相应文件夹&lt;br /&gt;
+    * 创建 D:\Hugo 文件夹
+    * 创建 D:\Hugo\bin 文件夹
+    * 创建 D:\Hugo\Sites 文件夹
+*  下载安装Hugo
+    * 下载Windows版本最新的&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Release&lt;/a&gt;&lt;br /&gt;
+    * 将文件解压到 D:\Hugo\bin\&lt;br /&gt;
+    * 将exe可执行文件重命名为&lt;strong&gt;hugo.exe&lt;/strong&gt;
+    * 将hugo.exe的全路径添加至你的系统环境变量，确认你能在cmd窗口下执行&lt;code&gt;hugo help&lt;/code&gt;命令
+* 至此，Hugo安装完毕&lt;/p&gt;
 
 &lt;h3 id=&#34;mac用户&#34;&gt;MAC用户&lt;/h3&gt;
 
@@ -258,6 +287,18 @@ git push origin master
 &lt;h1 id=&#34;常用语法说明&#34;&gt;常用语法说明&lt;/h1&gt;
 
 &lt;p&gt;参考&lt;a href=&#34;https://blog.csdn.net/skykingf/article/details/45536231&#34;&gt;https://blog.csdn.net/skykingf/article/details/45536231&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;PS：作者用的是MarkdownPad2&lt;/em&gt;&lt;br /&gt;
+注册码如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;User：
+
+Soar360@live.com
+
+授权：
+
+GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ==
+&lt;/code&gt;&lt;/pre&gt;
 </description>
       
     </item>

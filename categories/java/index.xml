@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on LiangHaozan的个人博客</title>
+    <link>https://mikoto10032.github.io/categories/java/</link>
+    <description>Recent content in Java on LiangHaozan的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikoto10032.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Java技术路线及Spring相关教程</title>
+      <link>https://mikoto10032.github.io/post/java/springspringboot%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 16 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/java/springspringboot%E6%95%99%E7%A8%8B/</guid>
+      <description>Java Web 技术路线 其一 其二 Spring http://wiki.jikexueyuan.com/project/spring/annotation-based-configuration.html https://www.yiibai.com/spring/spring-tutorial-for-beginners.html SpringBoot https://www.yiibai.com/spring-boot/ http://www.ityouknow.com/spring-boot.html http://tengj.top/tags/Spring-Boot/</description>
+    </item>
+    
+  </channel>
+</rss>

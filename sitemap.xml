@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://mikoto10032.github.io/post/java/springspringboot%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/github-io%E9%85%8D%E5%90%88hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2018-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,6 +51,20 @@
   </url>
   
   <url>
+    <loc>https://mikoto10032.github.io/tags/java/</loc>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mikoto10032.github.io/categories/java/</loc>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://mikoto10032.github.io/</loc>
     <lastmod>2018-06-06T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -52,7 +73,14 @@
   
   <url>
     <loc>https://mikoto10032.github.io/post/</loc>
-    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mikoto10032.github.io/tags/spring/</loc>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

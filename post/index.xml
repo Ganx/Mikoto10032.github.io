@@ -6,10 +6,19 @@
     <description>Recent content in Posts on LiangHaozan的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mikoto10032.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java技术路线及Spring相关教程</title>
+      <link>https://mikoto10032.github.io/post/java/springspringboot%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 16 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/java/springspringboot%E6%95%99%E7%A8%8B/</guid>
+      <description>Java Web 技术路线 其一 其二 Spring http://wiki.jikexueyuan.com/project/spring/annotation-based-configuration.html https://www.yiibai.com/spring/spring-tutorial-for-beginners.html SpringBoot https://www.yiibai.com/spring-boot/ http://www.ityouknow.com/spring-boot.html http://tengj.top/tags/Spring-Boot/</description>
+    </item>
     
     <item>
       <title>GitHub IO配合HuGo搭建个人静态博客</title>
