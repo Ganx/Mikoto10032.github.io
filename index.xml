@@ -33,6 +33,617 @@
     </item>
     
     <item>
+      <title>Aria2离线下载并上传到GooleDrive</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/aria2%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E5%B9%B6%E4%B8%8A%E4%BC%A0%E5%88%B0gooledrive/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/aria2%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E5%B9%B6%E4%B8%8A%E4%BC%A0%E5%88%B0gooledrive/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;aria2离线下载并上传到googledrive&#34;&gt;Aria2离线下载并上传到GoogleDrive&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;无限容量GoogleDrive申请移步至[这里]()&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Aria2搭建移步至[这里]()&lt;/li&gt;
+&lt;li&gt;教程暂时没空写，请参考：
+[1] &lt;a href=&#34;https://www.6ird.com/archives/1367.html&#34;&gt;https://www.6ird.com/archives/1367.html&lt;/a&gt;&lt;br /&gt;
+[2] &lt;a href=&#34;https://lala.im/2982.html&#34;&gt;https://lala.im/2982.html&lt;/a&gt;&lt;br /&gt;
+[3] &lt;a href=&#34;https://www.moerats.com/archives/509/&#34;&gt;https://www.moerats.com/archives/509/&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PS：百度网盘搬运至GoolgleDrive移步至&lt;a href=&#34;http://wonse.info/bd-yun-to-google-drive.html&#34;&gt;这里&lt;/a&gt;，好像也没有其他能一步到位的办法。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux使用SSR客户端</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/linux%E4%BD%BF%E7%94%A8ssr%E5%AE%A2%E6%88%B7%E7%AB%AF/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/linux%E4%BD%BF%E7%94%A8ssr%E5%AE%A2%E6%88%B7%E7%AB%AF/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;linux-使用ssr客户端&#34;&gt;Linux 使用SSR客户端&lt;/h1&gt;
+
+&lt;h2 id=&#34;下载安装ssr&#34;&gt;下载安装SSR&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;下载项目文件&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install git  
+git clone https://github.com/ssrbackup/shadowsocksr
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;配置config.json&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;进入clone的文件夹，复制config.json到 &lt;code&gt;/etc/shadowsocks.json&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cp shadowsocksr/config.json /etc/shadowsocks.json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;编辑json&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;vi /etc/shadowsocks.josn
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;你会看到如下信息：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    &amp;quot;server&amp;quot;: &amp;quot;0.0.0.0&amp;quot;,
+    &amp;quot;server_ipv6&amp;quot;: &amp;quot;::&amp;quot;,
+    &amp;quot;server_port&amp;quot;: 8388,
+    &amp;quot;local_address&amp;quot;: &amp;quot;127.0.0.1&amp;quot;,
+    &amp;quot;local_port&amp;quot;: 1080,
+
+    &amp;quot;password&amp;quot;: &amp;quot;m&amp;quot;,
+    &amp;quot;method&amp;quot;: &amp;quot;aes-128-ctr&amp;quot;,
+    &amp;quot;protocol&amp;quot;: &amp;quot;auth_aes128_md5&amp;quot;,
+    &amp;quot;protocol_param&amp;quot;: &amp;quot;&amp;quot;,
+    &amp;quot;obfs&amp;quot;: &amp;quot;tls1.2_ticket_auth_compatible&amp;quot;,
+    &amp;quot;obfs_param&amp;quot;: &amp;quot;&amp;quot;,
+    &amp;quot;speed_limit_per_con&amp;quot;: 0,
+    &amp;quot;speed_limit_per_user&amp;quot;: 0,
+
+    &amp;quot;additional_ports&amp;quot; : {}, // only works under multi-user mode
+    &amp;quot;additional_ports_only&amp;quot; : false, // only works under multi-user mode
+    &amp;quot;timeout&amp;quot;: 120,
+    &amp;quot;udp_timeout&amp;quot;: 60,
+    &amp;quot;dns_ipv6&amp;quot;: false,
+    &amp;quot;connect_verbose_info&amp;quot;: 0,
+    &amp;quot;redirect&amp;quot;: &amp;quot;&amp;quot;,
+    &amp;quot;fast_open&amp;quot;: false
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;修改信息，主要是：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot;server_port&amp;quot;:8388,        //端口
+&amp;quot;password&amp;quot;:&amp;quot;password&amp;quot;,     //密码
+ &amp;quot;protocol&amp;quot;:&amp;quot;origin&amp;quot;,       //协议插件
+ &amp;quot;obfs&amp;quot;:&amp;quot;http_simple&amp;quot;,      //混淆插件
+ &amp;quot;method&amp;quot;:&amp;quot;aes-256-cfb&amp;quot;,    //加密方式          
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;运行ssr&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;进入到shadowsocksr/shadowsocks目录，运行&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python local.py -c/etc/shadowsocks.json -d start
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;停止ssr&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;进入到shadowsocksr/shadowsocks目录，运行&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python local.py -c/etc/shadowsocks.json -d stop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;重启&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;python local.py -c/etc/shadowsocks.json -d restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;利用proxychains让命令走代理&#34;&gt;利用proxychains让命令走代理&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安装proxychains&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install proxychains
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;配置proxychains&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo vim /etc/proxychains.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;将最后一行改成：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;socks5 127.0.0.1 1080
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;proxychains使用&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;proxychains wget https://www.google.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;PS：好像这个ip和前面ssr的json设置的ip有关&lt;br /&gt;
+* 让命令行都走代理（如果需要的话）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;proxychains bash
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;配置chrome浏览器&#34;&gt;配置chrome浏览器&lt;/h2&gt;
+
+&lt;p&gt;因为某些原因（我不是很清楚），在大多数Linux下只成功启动ssr客户端的话会发现并没有什么作用，该进不去的仍然进不去，在这里就直接讲在Chrome内自动代理（国内走直连，特定网站走ssr）的解决方案吧。
+进入&lt;a href=&#34;https://file.lucien.ink/SwitchyOmega&#34;&gt;https://file.lucien.ink/SwitchyOmega&lt;/a&gt;，下载&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SwitchyOmega.crx
+OmegaOptions.bak
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 然后在Chrome里打开&lt;code&gt;chrome://extensions&lt;/code&gt;，把SwitchyOmega.crx文件拖放到扩展程序页面，点击添加扩展程序进行安装。&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 打开SwitchyOmega的设置页面，跳过设置向导，点击导入/导出、从备份文件恢复、找到OmegaOptions.bak打开，恢复完成后点击应用选项,可以点击扩展设置选择直连、代理还是自动切换。&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;参考：&lt;/em&gt;&lt;/strong&gt;
+[1] &lt;a href=&#34;https://www.jianshu.com/p/c336fd0bdfbe&#34;&gt;https://www.jianshu.com/p/c336fd0bdfbe&lt;/a&gt;
+[2] &lt;a href=&#34;https://blog.csdn.net/sinat_38245860/article/details/78698593&#34;&gt;https://blog.csdn.net/sinat_38245860/article/details/78698593&lt;/a&gt;
+[3] &lt;a href=&#34;https://blog.csdn.net/suz_cheney/article/details/73478360&#34;&gt;https://blog.csdn.net/suz_cheney/article/details/73478360&lt;/a&gt;
+[4] &lt;a href=&#34;https://blog.csdn.net/xs18952904/article/details/80272579&#34;&gt;https://blog.csdn.net/xs18952904/article/details/80272579&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>NextCloud挂载GoogleDrive</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/nextcloud%E6%8C%82%E8%BD%BDgoogledrive/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/nextcloud%E6%8C%82%E8%BD%BDgoogledrive/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;nextcloud离线下载搭建方法-整合aria2和ariang-aria2-webui实现离线下载-以及挂载googledrive&#34;&gt;Nextcloud离线下载搭建方法(整合Aria2和AriaNg、Aria2 WebUI实现离线下载)以及挂载GoogleDrive&lt;/h1&gt;
+
+&lt;h2 id=&#34;vps搭建nextcloud&#34;&gt;VPS搭建NextCloud&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.orgleaf.com/2203.html&#34;&gt;https://www.orgleaf.com/2203.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.orgleaf.com/2224.html&#34;&gt;https://www.orgleaf.com/2224.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;一键搭建nextcloud&#34;&gt;一键搭建NextCloud&lt;/h3&gt;
+
+&lt;p&gt;输入以下命令&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install snap
+sudo apt-get install snapd
+sudo snap install nextcloud 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;然后访问你的IP，配置好账号密码&lt;/p&gt;
+
+&lt;h2 id=&#34;安装aria2和ariang&#34;&gt;安装Aria2和AriaNg&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wzfou.com/nextcloud-aria2/&#34;&gt;https://wzfou.com/nextcloud-aria2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wzfou.com/nextcloud/&#34;&gt;https://wzfou.com/nextcloud/&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.orgleaf.com/2743.html&#34;&gt;https://www.orgleaf.com/2743.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;挂载googledrive&#34;&gt;挂载GoogleDrive&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.orgleaf.com/903.html&#34;&gt;https://www.orgleaf.com/903.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;nextcloud相关教程&#34;&gt;NextCloud相关教程&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.orgleaf.com/&#34;&gt;https://www.orgleaf.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wzfou.com/&#34;&gt;https://wzfou.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>VPS基于LAMP搭建Aria2&#43;AriaNg&#43;Nextcloud</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/vps%E5%9F%BA%E4%BA%8Elamp%E6%90%AD%E5%BB%BAaria2&#43;ariang&#43;nextcloud/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/vps%E5%9F%BA%E4%BA%8Elamp%E6%90%AD%E5%BB%BAaria2&#43;ariang&#43;nextcloud/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;一-安装aria2&#34;&gt;一、安装Aria2&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-下载安装aria2&#34;&gt;1.下载安装aria2&lt;/h2&gt;
+
+&lt;p&gt;ubuntu系统：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get update
+apt-get install aria2   
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;centos：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yum install epel-release
+yum install aria2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;2-aira2配置&#34;&gt;2.aira2配置&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;先创建目录和文件&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir /aria2
+cd /aria2
+vi aria2.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;**编辑aria2.conf    **&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;#允许rpc
+enable-rpc=true
+#允许所有来源, web界面跨域权限需要
+rpc-allow-origin-all=true
+#允许非外部访问
+rpc-listen-all=true
+#RPC端口, 仅当默认端口被占用时修改
+#rpc-listen-port=6800
+ 
+#用户名
+rpc-user=susu
+#密码
+rpc-passwd=138vps
+
+#RPC密钥
+#rpc-secret=138vps
+###速度相关 
+#最大同时下载数(任务数), 路由建议值: 3
+max-concurrent-downloads=5
+#断点续传
+continue=true
+#同服务器连接数
+max-connection-per-server=5
+#最小文件分片大小, 下载线程数上限取决于能分出多少片, 对于小文件重要
+min-split-size=20M
+#单文件最大线程数, 路由建议值: 5
+split=10
+#下载速度限制 0 不限制
+max-overall-download-limit=0
+#单文件速度限制
+max-download-limit=0
+#上传速度限制
+max-overall-upload-limit=0
+#单文件速度限制
+max-upload-limit=0
+#断开速度过慢的连接
+#lowest-speed-limit=0
+#验证用，需要1.16.1之后的release版本
+#referer=*
+ 
+###进度保存相关 
+input-file=/root/aria2.session
+save-session=/root/aria2.session
+#定时保存会话，需要1.16.1之后的release版
+#save-session-interval=60
+ 
+###磁盘相关 
+#文件保存路径, 默认为当前启动位置
+dir=/var/www/html/
+#文件缓存, 使用内置的文件缓存, 如果你不相信Linux内核文件缓存和磁盘内置缓存时使用, 需要1.16及以上版本
+#disk-cache=0
+#另一种Linux文件缓存方式, 使用前确保您使用的内核支持此选项, 需要1.15及以上版本
+#enable-mmap=true
+#文件预分配, 能有效降低文件碎片, 提高磁盘性能. 缺点是预分配时间较长
+#所需时间 none &amp;lt; falloc ? trunc &amp;lt;&amp;lt; prealloc, falloc和trunc需要文件系统和内核支持
+file-allocation=prealloc
+ 
+###BT相关 
+#启用本地节点查找
+bt-enable-lpd=true
+#添加额外的tracker
+#bt-tracker=&amp;lt;URI&amp;gt;,…
+#单种子最大连接数
+#bt-max-peers=55
+#强制加密, 防迅雷必备
+#bt-require-crypto=true
+#当下载的文件是一个种子(以.torrent结尾)时, 自动下载BT
+follow-torrent=true
+#BT监听端口, 当端口屏蔽时使用
+#listen-port=6881-6999
+#aria2亦可以用于PT下载, 下载的关键在于伪装
+#不确定是否需要，为保险起见，need more test
+enable-dht=false
+bt-enable-lpd=false
+enable-peer-exchange=false
+#修改特征
+user-agent=uTorrent/2210(25130)
+peer-id-prefix=-UT2210-
+#修改做种设置, 允许做种
+seed-ratio=0
+#保存会话
+force-save=true
+bt-hash-check-seed=true
+bt-seed-unverified=true
+bt-save-metadata=true
+#定时保存会话，需要1.16.1之后的某个release版本
+#save-session-interval=60
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;**启动aria2 **&lt;/p&gt;
+
+&lt;p&gt;aria2c &amp;ndash;conf-path=/aria2/aria2.conf -D
+aria2c &amp;ndash;enable-rpc &amp;ndash;rpc-listen-all=true &amp;ndash;rpc-allow-origin-all -c -D&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PS：貌似重新启动后要重新启动aria2？&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;二-安装ariang管理面板&#34;&gt;二、安装AriaNg管理面板&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;PS:如果想在服务器上安装管理面板，那么就安装Apache，否则直接下载&lt;a href=&#34;https://github.com/mayswind/AriaNg/releases/download/0.4.0/aria-ng-0.4.0.zip&#34;&gt;AriaNg项目&lt;/a&gt;到本地访问即可，配置信息看下面&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-apache安装&#34;&gt;1.Apache安装&lt;/h2&gt;
+
+&lt;p&gt;ubuntu系统：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get -y install apache2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;centos：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yum  -y  install  httpd
+chkconfig --levels 235 httpd on
+service httpd start
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;2-安装下载ariang&#34;&gt;2.安装下载AriaNg&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;输入命令：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;wget http://dl.138vps.com/linux/ariang.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;解压    ：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;tar -xzvf ariang.tar.gz     
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;移动到Apache网站目录：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;cp -r /ariang /var/www/html 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;修改权限：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;chmod 755 /var/www/html/ariang  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;访问：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;http://IP地址/ariang          
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;配置：
+AriaNg设置-&amp;gt;RPC设置（填写ip，如果有rpc-secret就填写）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;三-安装nextcloud&#34;&gt;三、安装NextCloud&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-手动安装-还是手动安装好&#34;&gt;1.手动安装(还是手动安装好)&lt;/h2&gt;
+
+&lt;h3 id=&#34;1-lamp安装&#34;&gt;（1）LAMP安装&lt;/h3&gt;
+
+&lt;p&gt;一键LAMP安装：&lt;code&gt;apt-get install apache2 php7.0 mysql-server&lt;/code&gt;&lt;br /&gt;
+再安装一些也许需要的PHP模块：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install apache2 libapache2-mod-php7.0 php7.0-gd php7.0-mysql 
+php7.0-curl php7.0-intl php7.0-mcrypt php-imagick php7.0-zip php7.0-xml php7.0-mbstring
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;2-配置数据库&#34;&gt;（2）配置数据库&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;#登录mysql
+mysql -u root -p                 
+
+#创建名为nextcloud的数据库
+mysql&amp;gt; CREATE DATABASE nextcloud;
+Query OK, 1 row affected (0.01 sec)
+
+#切换数据库
+mysql&amp;gt; USE nextcloud
+Database changed
+
+#创建名为nextcloud的用户，密码为password，并赋予相关权限
+mysql&amp;gt; GRANT All  ON nextcloud.* TO nextcloud@localhost IDENTIFIED BY &#39;password&#39;; 
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+#登出mysql
+mysql&amp;gt; exit
+Bye
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;3-nextcloud安装&#34;&gt;（3）Nextcloud安装&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;下载安装包&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;wget https://download.nextcloud.com/server/releases/nextcloud-13.0.4.zip
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;解压&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;unzip nextcloud-13.0.4.zip
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;移动到Apache网站目录&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;cp -r nextcloud /var/www/html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;访问 &lt;code&gt;ip/nextcloud&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;填写信息即可&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;常见问题&#34;&gt;常见问题&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;内部服务器错误&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;原因：nextcloud权限设置问题
+解决：设置nextcloud的拥有者和权限&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;chown www-data /var/www/html/nextcloud
+chmod 775 /var/www/html/nextcloud
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;无法创建或写入数据目录 xxx&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;原因：也是权限问题&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;chown www-data /mydownload
+chmod 775 /mydownload
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;刷新网页后，提示有模块未安装&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install php7.0-zip php7.0-dom php7.0-xml php7.0-gd php7.0-curl php7.0-mysql
+service apache2 restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;PS：
+（1）主要是两个地方：数据目录和数据库配置。数据目录要填写绝对目录，最后不带“/”，而且要保证这个目录至少拥有750权限、用户名和组为www-data。数据库这要填写之前使用phpMyAdmin所设置的用户名和数据库。
+（2）如果提示数据库访问错误，可以试试换成root用户（虽然这样做不安全）&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;2-snap安装-貌似snap安装了nextcloud后apache就不起效了&#34;&gt;2.Snap安装（貌似snap安装了nextcloud后apache就不起效了？？？）&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;snap是什么？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;#查看snap版本信息
+snap --version
+#找出所有snap应用
+snap find
+#安装应用
+snap install 包名
+#重启应用
+snap restart 应用名
+#升级应用
+snap refresh 应用名
+#查看安装的应用
+snap list
+#卸载应用
+snap remove 应用名 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安装&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;#更新系统
+apt-get update -y
+#安装NextCloud
+snap install nextcloud      
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://your_ip&#34;&gt;http://your_ip&lt;/a&gt; 进入登录页面&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;将aria2的下载目录改成snap的数据目录后nextcloud就可以查看aria2下载的文件了&lt;/strong&gt;&lt;br /&gt;
+目录是：&lt;code&gt;/var/snap/nextcloud/common/nextcloud/data&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PS：&lt;a href=&#34;test&#34;&gt;aria2实现下载上传到GoogleDrive&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;参考：
+[1] &lt;a href=&#34;https://www.orgleaf.com/2203.html&#34;&gt;https://www.orgleaf.com/2203.html&lt;/a&gt;&lt;br /&gt;
+[2] &lt;a href=&#34;https://www.orgleaf.com/2224.html&#34;&gt;https://www.orgleaf.com/2224.html&lt;/a&gt;
+[3] &lt;a href=&#34;https://wzfou.com/nextcloud-aria2/&#34;&gt;https://wzfou.com/nextcloud-aria2/&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>申请无限量谷歌教育云盘</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E7%94%B3%E8%AF%B7%E6%97%A0%E9%99%90%E9%87%8F%E8%B0%B7%E6%AD%8C%E6%95%99%E8%82%B2%E4%BA%91%E7%9B%98/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E7%94%B3%E8%AF%B7%E6%97%A0%E9%99%90%E9%87%8F%E8%B0%B7%E6%AD%8C%E6%95%99%E8%82%B2%E4%BA%91%E7%9B%98/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;申请谷歌云盘教育版-搬运&#34;&gt;申请谷歌云盘教育版（搬运）&lt;/h1&gt;
+
+&lt;h2 id=&#34;法一-huayuworld-org&#34;&gt;法一：huayuworld.org&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://liyuans.com/2018/06/huayuworld.html&#34;&gt;https://liyuans.com/2018/06/huayuworld.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.huayuworld.org/&#34;&gt;https://www.huayuworld.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;haozanliang@huayuworld.org&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;法二-edu邮箱&#34;&gt;法二：edu邮箱&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jlszy.net/?p=96&#34;&gt;http://jlszy.net/?p=96&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.erbuxiu.com/0044295.html&#34;&gt;https://www.erbuxiu.com/0044295.html&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>Java技术路线及Spring相关教程</title>
       <link>https://mikoto10032.github.io/post/java/java%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E5%8F%8Aspring%E7%9B%B8%E5%85%B3%E6%95%99%E7%A8%8B/</link>
       <pubDate>Sat, 16 Jun 2018 00:00:00 +0000</pubDate>
@@ -381,12 +992,13 @@ GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/39022858&#34;&gt;1. 卷积神经网络工作原理&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/28749411&#34;&gt;2. 变形卷积核、可分离卷积&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34816076&#34;&gt;3. 先理解Mask R-CNN的工作原理，然后构建颜色填充器应用&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35221368&#34;&gt;4. 从VGG到NASNet，一文概览图像分类网络&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35985680&#34;&gt;5. 一文简述ResNet及其多种变体&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32304419&#34;&gt;6. CNN模型之ShuffleNet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/23006190&#34;&gt;7. 将CNN引入目标检测的开山之作：R-CNN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[8. 人脸检测和识别算法综述]()      
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/cdknight_happy/article/details/79247280&#34;&gt;3. GoogleNet系列论文&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34816076&#34;&gt;4. 先理解Mask R-CNN的工作原理，然后构建颜色填充器应用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35221368&#34;&gt;5. 从VGG到NASNet，一文概览图像分类网络&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35985680&#34;&gt;6. 一文简述ResNet及其多种变体&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32304419&#34;&gt;7. CNN模型之ShuffleNet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/23006190&#34;&gt;8. 将CNN引入目标检测的开山之作：R-CNN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[9. 人脸检测和识别算法综述]()      
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/36621308&#34;&gt;人脸检测算法综述 &lt;/a&gt;          &lt;/li&gt;
@@ -395,7 +1007,7 @@ GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE
 &lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/shuzfan/article/details/50358809&#34;&gt;CascadeCNN&lt;/a&gt;  &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_14845119/article/details/52680940&#34;&gt;MTCNN&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_20084101/article/details/80455877&#34;&gt;9. 语义分割卷积神经网络快速入门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_20084101/article/details/80455877&#34;&gt;10. 语义分割卷积神经网络快速入门&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;gan&#34;&gt;GAN&lt;/h3&gt;

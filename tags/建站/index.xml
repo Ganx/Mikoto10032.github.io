@@ -6,10 +6,19 @@
     <description>Recent content in 建站 on LiangHaozan的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mikoto10032.github.io/tags/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VPS基于LAMP搭建Aria2&#43;AriaNg&#43;Nextcloud</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/vps%E5%9F%BA%E4%BA%8Elamp%E6%90%AD%E5%BB%BAaria2&#43;ariang&#43;nextcloud/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/vps%E5%9F%BA%E4%BA%8Elamp%E6%90%AD%E5%BB%BAaria2&#43;ariang&#43;nextcloud/</guid>
+      <description>一、安装Aria2 1.下载安装aria2 ubuntu系统： apt-get update apt-get install aria2 centos： yum install epel-release yum install aria2 2.aira2配置 先创建目录和文件 mkdir /aria2 cd /aria2 vi aria2.conf</description>
+    </item>
     
     <item>
       <title>GitHub IO配合HuGo搭建个人静态博客</title>
