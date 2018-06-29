@@ -39,14 +39,10 @@
       
       <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/aria2%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E5%B9%B6%E4%B8%8A%E4%BC%A0%E5%88%B0gooledrive/</guid>
       
-        <description>
-
-&lt;h1 id=&#34;aria2离线下载并上传到googledrive&#34;&gt;Aria2离线下载并上传到GoogleDrive&lt;/h1&gt;
-
-&lt;ul&gt;
+        <description>&lt;ul&gt;
 &lt;li&gt;无限容量GoogleDrive申请移步至[这里]()&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Aria2搭建移步至[这里]()&lt;/li&gt;
-&lt;li&gt;教程暂时没空写，请参考：
+&lt;li&gt;Aria2搭建移步至&lt;a href=&#34;https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/vps%E5%9F%BA%E4%BA%8Elamp%E6%90%AD%E5%BB%BAaria2+ariang+nextcloud/&#34;&gt;这里&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;教程暂时没空写，请参考：&lt;br /&gt;
 [1] &lt;a href=&#34;https://www.6ird.com/archives/1367.html&#34;&gt;https://www.6ird.com/archives/1367.html&lt;/a&gt;&lt;br /&gt;
 [2] &lt;a href=&#34;https://lala.im/2982.html&#34;&gt;https://lala.im/2982.html&lt;/a&gt;&lt;br /&gt;
 [3] &lt;a href=&#34;https://www.moerats.com/archives/509/&#34;&gt;https://www.moerats.com/archives/509/&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
@@ -205,10 +201,10 @@ OmegaOptions.bak
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 打开SwitchyOmega的设置页面，跳过设置向导，点击导入/导出、从备份文件恢复、找到OmegaOptions.bak打开，恢复完成后点击应用选项,可以点击扩展设置选择直连、代理还是自动切换。&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;参考：&lt;/em&gt;&lt;/strong&gt;
-[1] &lt;a href=&#34;https://www.jianshu.com/p/c336fd0bdfbe&#34;&gt;https://www.jianshu.com/p/c336fd0bdfbe&lt;/a&gt;
-[2] &lt;a href=&#34;https://blog.csdn.net/sinat_38245860/article/details/78698593&#34;&gt;https://blog.csdn.net/sinat_38245860/article/details/78698593&lt;/a&gt;
-[3] &lt;a href=&#34;https://blog.csdn.net/suz_cheney/article/details/73478360&#34;&gt;https://blog.csdn.net/suz_cheney/article/details/73478360&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;参考：&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+[1] &lt;a href=&#34;https://www.jianshu.com/p/c336fd0bdfbe&#34;&gt;https://www.jianshu.com/p/c336fd0bdfbe&lt;/a&gt;&lt;br /&gt;
+[2] &lt;a href=&#34;https://blog.csdn.net/sinat_38245860/article/details/78698593&#34;&gt;https://blog.csdn.net/sinat_38245860/article/details/78698593&lt;/a&gt;&lt;br /&gt;
+[3] &lt;a href=&#34;https://blog.csdn.net/suz_cheney/article/details/73478360&#34;&gt;https://blog.csdn.net/suz_cheney/article/details/73478360&lt;/a&gt;&lt;br /&gt;
 [4] &lt;a href=&#34;https://blog.csdn.net/xs18952904/article/details/80272579&#34;&gt;https://blog.csdn.net/xs18952904/article/details/80272579&lt;/a&gt;&lt;/p&gt;
 </description>
       
@@ -615,7 +611,7 @@ snap install nextcloud
     </item>
     
     <item>
-      <title>申请无限量谷歌教育云盘</title>
+      <title>申请无限量谷歌教育云盘（搬运）</title>
       <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E7%94%B3%E8%AF%B7%E6%97%A0%E9%99%90%E9%87%8F%E8%B0%B7%E6%AD%8C%E6%95%99%E8%82%B2%E4%BA%91%E7%9B%98/</link>
       <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
       
@@ -623,14 +619,11 @@ snap install nextcloud
       
         <description>
 
-&lt;h1 id=&#34;申请谷歌云盘教育版-搬运&#34;&gt;申请谷歌云盘教育版（搬运）&lt;/h1&gt;
-
 &lt;h2 id=&#34;法一-huayuworld-org&#34;&gt;法一：huayuworld.org&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://liyuans.com/2018/06/huayuworld.html&#34;&gt;https://liyuans.com/2018/06/huayuworld.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.huayuworld.org/&#34;&gt;https://www.huayuworld.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;haozanliang@huayuworld.org&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.huayuworld.org/&#34;&gt;https://www.huayuworld.org/&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;法二-edu邮箱&#34;&gt;法二：edu邮箱&lt;/h2&gt;
