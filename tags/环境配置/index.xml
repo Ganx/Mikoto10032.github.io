@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>环境配置 on LiangHaozan的个人博客</title>
+    <link>https://mikoto10032.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</link>
+    <description>Recent content in 环境配置 on LiangHaozan的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikoto10032.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu16安装搜狗拼音</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/ubuntu16%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/ubuntu16%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3/</guid>
+      <description>前情提要 在安装之前，我们要先了解一个事实，那就是linux下安装软件和Windows是非常不同的，并不是简单地双击安装包就可以安装了。lin</description>
+    </item>
+    
+    <item>
+      <title>Win10&#43;Ubuntu16双系统</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/win10&#43;ubuntu16.%E5%8F%8C%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/win10&#43;ubuntu16.%E5%8F%8C%E7%B3%BB%E7%BB%9F/</guid>
+      <description>一、镜像下载、激活 Win10专业版镜像 Win10激活 Ubuntu16.04镜像 二、相关启动盘制作工具 Universal USB Installer U盘装机大师 三、Bios设置 进bi</description>
+    </item>
+    
+    <item>
+      <title>深度学习个人环境配置</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</guid>
+      <description>一、安装Nvidia驱动 1.直接用Linux自带的驱动安装来进行 搜索additional drivers,点击选择安装驱动 2. 命令行安装 1.下载</description>
+    </item>
+    
+  </channel>
+</rss>

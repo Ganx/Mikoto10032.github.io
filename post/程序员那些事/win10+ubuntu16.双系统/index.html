@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Win10&#43;Ubuntu16双系统 - LiangHaozan的个人博客</title>
+  <link rel="alternate" hreflang="en" href="https://mikoto10032.github.io/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<meta name="author" content="LiangHaozan" />
+  <meta name="description" content="一、镜像下载、激活 Win10专业版镜像 Win10激活 Ubuntu16.04镜像 二、相关启动盘制作工具 Universal USB Installer U盘装机大师 三、Bios设置 进bi" />
+
+  <meta name="keywords" content="Hugo, theme, jane" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.38.2" />
+
+
+<link rel="canonical" href="https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/win10&#43;ubuntu16.%E5%8F%8C%E7%B3%BB%E7%BB%9F/" />
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" href="/favicon.ico" />
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Win10&#43;Ubuntu16双系统" />
+<meta property="og:description" content="一、镜像下载、激活 Win10专业版镜像 Win10激活 Ubuntu16.04镜像 二、相关启动盘制作工具 Universal USB Installer U盘装机大师 三、Bios设置 进bi" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/win10&#43;ubuntu16.%E5%8F%8C%E7%B3%BB%E7%BB%9F/" />
+
+
+
+<meta property="article:published_time" content="2018-07-10T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-07-10T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Win10&#43;Ubuntu16双系统">
+<meta itemprop="description" content="一、镜像下载、激活 Win10专业版镜像 Win10激活 Ubuntu16.04镜像 二、相关启动盘制作工具 Universal USB Installer U盘装机大师 三、Bios设置 进bi">
+
+
+<meta itemprop="datePublished" content="2018-07-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-07-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="166">
+
+
+
+<meta itemprop="keywords" content="Linux,操作系统,环境配置," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Win10&#43;Ubuntu16双系统"/>
+<meta name="twitter:description" content="一、镜像下载、激活 Win10专业版镜像 Win10激活 Ubuntu16.04镜像 二、相关启动盘制作工具 Universal USB Installer U盘装机大师 三、Bios设置 进bi"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">LiangHaozan</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a><a href="https://gohugo.io">
+        <li class="mobile-menu-item">external-link</li>
+      </a>
+  </ul>
+</nav>
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">LiangHaozan</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        
+        <a class="menu-item-link" href="/">Home</a>
+        
+      </li><li class="menu-item">
+        
+        <a class="menu-item-link" href="/post/">Archives</a>
+        
+      </li><li class="menu-item">
+        
+        <a class="menu-item-link" href="/tags/">Tags</a>
+        
+      </li><li class="menu-item">
+        
+        <a class="menu-item-link" href="/categories/">Categories</a>
+        
+      </li><li class="menu-item">
+        
+        <a class="menu-item-link" href="/about/">About</a>
+        
+      </li><li class="menu-item">
+        
+        <a class="menu-item-link" href="https://gohugo.io" target="_blank">
+          external-link
+          <i class="iconfont icon-new-window"></i>
+        </a>
+        
+      </li>
+  </ul>
+</nav>
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Win10&#43;Ubuntu16双系统</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2018-07-10 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/"> 程序员那些事 </a>
+            
+          </div>
+        <span class="more-meta"> 166 words </span>
+        <span class="more-meta"> 1 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#一-镜像下载-激活">一、镜像下载、激活</a></li>
+<li><a href="#二-相关启动盘制作工具">二、相关启动盘制作工具</a></li>
+<li><a href="#三-bios设置">三、Bios设置</a></li>
+<li><a href="#四-windows10-ubuntu16双系统安装教程">四、Windows10+Ubuntu16双系统安装教程</a></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h1 id="一-镜像下载-激活">一、镜像下载、激活</h1>
+
+<ul>
+<li><a href="http://www.win10zyb.com/Win10zhuanyebanGHO/12839.html">Win10专业版镜像</a><br /></li>
+<li><a href="http://www.win10zyb.com/win10jihuo/1398.html">Win10激活</a></li>
+<li><a href="https://www.ubuntu.com/download/alternative-downloads">Ubuntu16.04镜像</a></li>
+</ul>
+
+<h1 id="二-相关启动盘制作工具">二、相关启动盘制作工具</h1>
+
+<ul>
+<li><a href="https://universal-usb-installer.en.softonic.com/download">Universal USB Installer</a><br /></li>
+<li><a href="http://www.upandashi.com/down/7200.html">U盘装机大师</a></li>
+</ul>
+
+<h1 id="三-bios设置">三、Bios设置</h1>
+
+<ul>
+<li><a href="http://www.xitongcheng.com/jiaocheng/xtazjc_article_38482.html">进bios设置硬盘启动顺序</a></li>
+</ul>
+
+<h1 id="四-windows10-ubuntu16双系统安装教程">四、Windows10+Ubuntu16双系统安装教程</h1>
+
+<ul>
+<li><a href="http://www.windows7en.com/jiaocheng/30486.html">U盘安装原版win10系统详细教程</a><br /></li>
+<li><a href="http://www.upandashi.com/win10/">用U盘装机大师安装GHOST WIN10系统</a><br /></li>
+<li><a href="https://www.linuxidc.com/Linux/2016-04/130520.htm">Ubuntu 16.04 U盘安装图文教程</a><br /></li>
+<li><a href="https://blog.csdn.net/chy555chy/article/details/61191771">U盘安装 Ubuntu 16.04</a></li>
+<li><a href="https://www.jianshu.com/p/16b36b912b02">Win10安装Ubuntu16</a><br />
+<br /></li>
+</ul>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">LiangHaozan</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-07-10</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/linux/">Linux</a>
+          
+          <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a>
+          
+          <a href="/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">环境配置</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/ubuntu16%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Ubuntu16安装搜狗拼音</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">
+            <span class="next-text nav-default">深度学习个人环境配置</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+    
+
+  
+
+  
+
+  <div id="comments-gitment"></div>
+  <link rel="stylesheet" href="/lib/gitment/gitment-0.0.3.min.css">
+    <script src="/lib/gitment/gitment-0.0.3.min.js"></script>
+  <script type="text/javascript">
+  const gitment = new Gitment({
+    id: 'Win10\x2bUbuntu16.双系统.md',
+    title: 'Win10\x2bUbuntu16双系统',
+    link: decodeURI(location.href),
+    desc: '一、镜像下载、激活 Win10专业版镜像 Win10激活 Ubuntu16.04镜像 二、相关启动盘制作工具 Universal USB Installer U盘装机大师 三、Bios设置 进bi',
+    owner: 'Mikoto10032',
+    repo: 'BlogsComments',
+    oauth: {
+      client_id: '1bb3e8b56d64955e6f3c',
+      client_secret: 'e9b9bbb2313dfcca75c60a0f6328f59860ff3367'
+    }
+  })
+  gitment.render('comments-gitment')
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+  </article>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:437082907@qq.com" rel="me" class="iconfont icon-email" 
+        title="email" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-stack-overflow" 
+        title="stack-overflow" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-twitter" 
+        title="twitter" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-facebook" 
+        title="facebook" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-linkedin" 
+        title="linkedin" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-google" 
+        title="google" target="_blank">
+      </a>
+      <a href="https://github.com/Mikoto10032" rel="me" class="iconfont icon-github" 
+        title="github" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-weibo" 
+        title="weibo" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-zhihu" 
+        title="zhihu" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-douban" 
+        title="douban" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-pocket" 
+        title="pocket" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-tumblr" 
+        title="tumblr" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-instagram" 
+        title="instagram" target="_blank">
+      </a>
+      <a href="http://en.xianmin.org/hugo-theme-jane/" rel="me" class="iconfont icon-gitlab" 
+        title="gitlab" target="_blank">
+      </a>
+      <a href="http://en.xianmin.org/hugo-theme-jane/" rel="me" class="iconfont icon-goodreads" 
+        title="goodreads" target="_blank">
+      </a>
+  <a href="https://mikoto10032.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" 
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2017 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">LiangHaozan</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+</body>
+</html>

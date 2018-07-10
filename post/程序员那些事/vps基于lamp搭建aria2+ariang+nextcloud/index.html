@@ -85,7 +85,7 @@
 
 <meta itemprop="datePublished" content="2018-06-29T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-06-29T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1873">
+<meta itemprop="wordCount" content="1882">
 
 
 
@@ -191,7 +191,7 @@
               <a href="/categories/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/"> 程序员那些事 </a>
             
           </div>
-        <span class="more-meta"> 1873 words </span>
+        <span class="more-meta"> 1882 words </span>
         <span class="more-meta"> 4 min read </span>
       </div>
     </header>
@@ -396,14 +396,14 @@ service httpd start
 <li>解压    ：</li>
 </ul>
 
-<pre><code>tar -xzvf ariang.tar.gz     
+<pre><code>tar zxvf ariang.tar.gz      
 </code></pre>
 
 <ul>
 <li>移动到Apache网站目录：</li>
 </ul>
 
-<pre><code>cp -r /ariang /var/www/html 
+<pre><code>cp -r ./ariang /var/www/html    
 </code></pre>
 
 <ul>
@@ -510,6 +510,9 @@ chmod 775 /var/www/html/nextcloud
 
 <pre><code>chown www-data /mydownload
 chmod 775 /mydownload
+</code></pre>
+
+<pre><code>chmod 770 /var/www/html/nextcloud -Rf &amp; chown www-data /var/www/html/nextcloud -Rf
 </code></pre>
 
 <ul>

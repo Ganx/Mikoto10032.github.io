@@ -33,6 +33,548 @@
     </item>
     
     <item>
+      <title>Keep Up With New Trends!</title>
+      <link>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/keep-up-with-new-trends/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/keep-up-with-new-trends/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;2018&#34;&gt;2018&lt;/h1&gt;
+
+&lt;h2 id=&#34;cvpr&#34;&gt;CVPR&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/CVPR2018.py&#34;&gt;CVPR 2018 open access&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://cvpr2018.thecvf.com/program/main_conference#awards&#34;&gt;CVPR 2018 Awards&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Best Paper Award&lt;/strong&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/papers/Zamir_Taskonomy_Disentangling_Task_CVPR_2018_paper.pdf&#34;&gt;Taskonomy: Disentangling Task Transfer Learning&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best Student Paper Award&lt;/strong&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0369.pdf&#34;&gt;Total Capture: A 3D Deformation Model for Tracking Faces, Hands, and Bodies&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Honorable Mention&lt;/strong&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1830.pdf&#34;&gt;Deep Learning of Graph Matching&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0326.pdf&#34;&gt;SPLATNet: Sparse Lattice Networks for Point Cloud Processing&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/3124.pdf&#34;&gt;CodeSLAM — Learning a Compact, Optimisable Representation for Dense Visual SLAM&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/papers/Mohapatra_Efficient_Optimization_for_CVPR_2018_paper.pdf&#34;&gt;Efficient Optimization for Rank-Based Loss Functions&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;icml&#34;&gt;ICML&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://icml.cc/Conferences/2018/Schedule?type=Poster&#34;&gt;Accepted Papers&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://icml.cc/Conferences/2018/Schedule?type=Oral&#34;&gt;Orals&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://icml.cc/Conferences/2018/Awards&#34;&gt;ICML 2018 Awards&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Best Paper Awards&lt;/strong&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1802.00420&#34;&gt;Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples &lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1803.04383&#34;&gt;Delayed Impact of Fair Machine Learning &lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best Paper Runner Up Awards&lt;/strong&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1802.05642&#34;&gt;The Mechanics of n-Player Differentiable Games &lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://proceedings.mlr.press/v80/huang18a/huang18a.pdf&#34;&gt;Near Optimal Frequent Directions for Sketching Dense and Sparse Matrices&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1806.08010&#34;&gt;Fairness Without Demographics in Repeated Loss Minimization &lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu16安装搜狗拼音</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/ubuntu16%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/ubuntu16%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;前情提要&#34;&gt;前情提要&lt;/h1&gt;
+
+&lt;p&gt;在安装之前，我们要先了解一个事实，那就是linux下安装软件和Windows是非常不同的，并不是简单地双击安装包就可以安装了。linux很多软件都有自己的一个依赖源，如果不先安装好这些依赖源，你是无法成功安装软件的。那么搜狗输入法就需要依赖fcitx这个框架。&lt;/p&gt;
+
+&lt;p&gt;【fcitx是 (Free Chinese Input Toy for X) 的英文缩写，中文名为小企鹅输入法，是一个以 GPL 方式发布的输入法框架， 编写它的目是为桌面环境提供一个灵活的输入方案，彻底解决在GNU/Linux下没有一个好的中文输入法的问题。】&lt;/p&gt;
+
+&lt;h1 id=&#34;一-一般安装方式&#34;&gt;一、一般安装方式&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Ctrl+Alt+T，打开终端Terminal；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;先添加以下源，在终端输入命令：sudo add-apt-repository ppa:fcitx-team/nightly&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更新一下系统给，继续输入命令：sudo apt-get update&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;安装fcitx，输入命令：sudo apt-get install fcitx&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;安装fcitx的配置工具，输入命令：sudo apt-get install fcitx-config-gtk&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;安装fcitx的table-all软件包，输入命令：sudo apt-get install fcitx-table-all，遇到”希望继续执行吗“选择Y&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;安装im-switch切换工具，输入命令：sudo apt-get install im-switch，遇到”希望继续执行吗“选择Y&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;安装完成了，然后点击桌面左上角在计算机中搜索fcitx，如果能找到说明安装成功了&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;安装搜狗输入法：假设你的安装包放在Downloads文件夹下，那么在终端输入命令：
+(0)&lt;code&gt;wget http://cdn2.ime.sogou.com/dl/index/1524572264/sogoupinyin_2.2.0.0108_amd64.deb?st=2HtnuwOvQDfamw_7BmjGXA&amp;amp;e=1530674626&amp;amp;fn=sogoupinyin_2.2.0.0108_amd64.deb&lt;/code&gt;
+(1)ls
+(2)cd Downloads/
+(3)ls  (这个时候就会列出你的Downloads文件夹下都有哪些安装包)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;(4)sudo dpkg -i sogoupinyin_XXXX.deb&lt;/p&gt;
+
+&lt;h1 id=&#34;二-fcitx依赖&#34;&gt;二、fcitx依赖&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;sudo apt-get install -f&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;reboot&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;三-配置搜狗拼音&#34;&gt;三、配置搜狗拼音&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;首先打开右上角系统设置，选择第一行的最后一个选项”Text Entry“；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;点击左下角的+号，在打开的窗口中找到搜狗输入法Sogou pinyin点击Add添加进去&lt;br /&gt;
+&lt;img src=&#34;https://img-blog.csdn.net/20170508152859857?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd29haW5pc2hpZnU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;这时就可以看到列表中有搜狗输入法了。这个时候再打开fcitx的配置窗口，点击左下角的+号再列表中选择搜狗输入法添加进来：
+&lt;img src=&#34;https://img-blog.csdn.net/20170508153116121?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd29haW5pc2hpZnU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center&#34; alt=&#34;&#34; /&gt;
+PS：去掉 only show current language 的√查看sougoupinyin&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;添加成功了，把搜狗输入法移动到第一的位置。看看你的桌面右上角输入法那个地方，是不是出现搜狗输入法了！&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Win10&#43;Ubuntu16双系统</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/win10&#43;ubuntu16.%E5%8F%8C%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/win10&#43;ubuntu16.%E5%8F%8C%E7%B3%BB%E7%BB%9F/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;一-镜像下载-激活&#34;&gt;一、镜像下载、激活&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.win10zyb.com/Win10zhuanyebanGHO/12839.html&#34;&gt;Win10专业版镜像&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.win10zyb.com/win10jihuo/1398.html&#34;&gt;Win10激活&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ubuntu.com/download/alternative-downloads&#34;&gt;Ubuntu16.04镜像&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;二-相关启动盘制作工具&#34;&gt;二、相关启动盘制作工具&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://universal-usb-installer.en.softonic.com/download&#34;&gt;Universal USB Installer&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.upandashi.com/down/7200.html&#34;&gt;U盘装机大师&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;三-bios设置&#34;&gt;三、Bios设置&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.xitongcheng.com/jiaocheng/xtazjc_article_38482.html&#34;&gt;进bios设置硬盘启动顺序&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;四-windows10-ubuntu16双系统安装教程&#34;&gt;四、Windows10+Ubuntu16双系统安装教程&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.windows7en.com/jiaocheng/30486.html&#34;&gt;U盘安装原版win10系统详细教程&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.upandashi.com/win10/&#34;&gt;用U盘装机大师安装GHOST WIN10系统&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linuxidc.com/Linux/2016-04/130520.htm&#34;&gt;Ubuntu 16.04 U盘安装图文教程&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/chy555chy/article/details/61191771&#34;&gt;U盘安装 Ubuntu 16.04&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jianshu.com/p/16b36b912b02&#34;&gt;Win10安装Ubuntu16&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>深度学习个人环境配置</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;一-安装nvidia驱动&#34;&gt;一、安装Nvidia驱动&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-直接用linux自带的驱动安装来进行&#34;&gt;1.直接用Linux自带的驱动安装来进行&lt;/h2&gt;
+
+&lt;p&gt;搜索&lt;strong&gt;additional drivers&lt;/strong&gt;,点击选择安装驱动&lt;/p&gt;
+
+&lt;h2 id=&#34;2-命令行安装&#34;&gt;2. 命令行安装&lt;/h2&gt;
+
+&lt;p&gt;1.下载链接：&lt;a href=&#34;http://www.nvidia.cn/Download/index.aspx?lang=cn&#34;&gt;http://www.nvidia.cn/Download/index.aspx?lang=cn&lt;/a&gt;&lt;br /&gt;
+2.命令行下载并安装&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo apt-get install nvidia-381 nvidia-settings
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;PS:但是在安装过程中会出现多个对话框，要注意正确选择，否则就会造成循环进入开机界面。&lt;/p&gt;
+
+&lt;p&gt;(1) 它会提示我们是否要Disable security boot，一定要选择“是”，关闭security boot。
+(2) 后面，它为了防止是病毒关闭了security boot，还会让我们设置一个验证码，设置12345678即可，它在开机的时候会让我们输入对应位数的数字，这样设置最方便。
+(3) 等驱动安装完毕，重启计算机后还要注意，它会提示我们是（1）boot还是（2）Change boot state，一定要选择（2）改变boot状态，否则还会出现循环登录。&lt;/p&gt;
+
+&lt;h1 id=&#34;二-安装cuda8-0&#34;&gt;二、安装Cuda8.0&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-下载&#34;&gt;1. 下载&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;下载链接： &lt;a href=&#34;https://developer.nvidia.com/cuda-release-candidate-download&#34;&gt;https://developer.nvidia.com/cuda-release-candidate-download&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;命令行下载：&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;wget https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda_8.0.61_375.26_linux-run
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;2-安装&#34;&gt;2. 安装&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo sh cuda_8.0.61_linux.run
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;安装过程中，会问你好几个问题。只要注意问你要不要安装Nvidia显卡驱动时选择no就好了。(Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 361.62? n)其它的都可以选择yes。&lt;br /&gt;
+完成之后,执行:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo gedit ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;在末尾添加&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;保存之后&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;source ~/.bashrc
+```				
+测试是否成功(下面的目录是cuda解压samples的目录,根据具体更改)			
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;cd /usr/local/cuda-8.0/samples/1_Utilities/deviceQuery
+make
+sudo ./deviceQuery&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;如果在最后一行显示PASS,并出现了Nvidia的显卡信息，则安装成功。 
+
+# 三、安装cudnn6.0			
+1. 下载链接：链接：https://developer.nvidia.com/rdp/cudnn-download 			
+
+2. 命令行下载			
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;wget &lt;a href=&#34;http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/cudnn-8.0-linux-x64-v6.0.tgz&#34;&gt;http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/cudnn-8.0-linux-x64-v6.0.tgz&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+3. 解压，[解压命令大全](https://blog.csdn.net/xiaoxinyu316/article/details/28244005)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;tar zxvf cudnn-8.0-linux-x64-v6.0.tgz&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+将其中的include和lib64文件夹分别复制到/usr/local/cuda文件夹下：		
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;cd cuda
+sudo cp include/cudnn.h /usr/local/cuda/include/
+sudo cp lib64/lib* /usr/local/cuda/lib64/&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;然后建立软链接：		
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;cd /usr/local/cuda/lib64/
+sudo rm -rf libcudnn.so libcudnn.so.6    #删除原有动态文件
+sudo ln -s libcudnn.so.6.0.21 libcudnn.so.6  #生成软衔接
+sudo ln -s libcudnn.so.6 libcudnn.so      #生成软链接&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+# 四、安装Tensorflow			
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;pip install tensorflow-gpu=1.4&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+# 五、配置SublimeText3			
+
+## 1. 安装 	
+
+### 1. 使用ppa安装			
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;sudo add-apt-repository ppa:webupd8team/sublime-text-3&lt;/p&gt;
+
+&lt;p&gt;sudo apt-get update&lt;/p&gt;
+
+&lt;p&gt;sudo apt-get install sublime-text-installer&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;卸载命令:
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;sudo apt-get remove sublime-text-installer&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;### 2. 使用deb包安装			
+1. 下载地址：https://www.sublimetext.com/docs/3/linux_repositories.html
+2. 安装		
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;sudo dpkg -i sublime-text_build-3126_amd64.deb&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+### 3. 通过apt安装			
+安装GPG key:
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;wget -qO - &lt;a href=&#34;https://download.sublimetext.com/sublimehq-pub.gpg&#34;&gt;https://download.sublimetext.com/sublimehq-pub.gpg&lt;/a&gt; | sudo apt-key add -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;确保apt能够使用https源		
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;sudo apt-get install apt-transport-https&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;使用稳定版源
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;echo &amp;ldquo;deb &lt;a href=&#34;https://download.sublimetext.com/&#34;&gt;https://download.sublimetext.com/&lt;/a&gt; apt/stable/&amp;rdquo; | sudo tee /etc/apt/sources.list.d/sublime-text.list&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;更新apt源并安装sublime-text
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;sudo apt-get update
+sudo apt-get install sublime-text&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;## 2. 打开命令
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;subl&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+## 3. 在Help里输入license key(license key可以网上自己搜索)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;—– BEGIN LICENSE —–
+Michael Barnes
+Single User License
+EA7E-821385
+8A353C41 872A0D5C DF9B2950 AFF6F667
+C458EA6D 8EA3C286 98D1D650 131A97AB
+AA919AEC EF20E143 B361B1E7 4C8B7F04
+B085E65E 2F5F5360 8489D422 FB8FC1AA
+93F6323C FD7F7544 3F39C318 D95E6480
+FCCC7561 8A4A1741 68FA4223 ADCEDE07
+200C25BE DBBC4855 C4CFB774 C5EC138C
+0FEC1CEF D9DCECEC D3A5DAD1 01316C36
+—— END LICENSE ——&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;## 4. 安装Packeage Control        
+在终端输入subl打开sublime text3, 使用快捷键ctrl + `(ESC下面的键),在弹出的控制台中输出以下代码:    
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;import urllib.request,os,hashlib; h = &amp;lsquo;df21e130d211cfc94d9b0905775a7c0f&amp;rsquo; + &amp;lsquo;1e3d39e33b79698005270310898eea76&amp;rsquo;; pf = &amp;lsquo;Package Control.sublime-package&amp;rsquo;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &amp;lsquo;&lt;a href=&#34;http://packagecontrol.io/&#39;&#34;&gt;http://packagecontrol.io/&#39;&lt;/a&gt; + pf.replace(&amp;rsquo; &amp;lsquo;, &amp;lsquo;%20&amp;rsquo;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&amp;lsquo;Error validating download (got %s instead of %s), please try manual install&amp;rsquo; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &amp;lsquo;wb&amp;rsquo; ).write(by)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;重启软件后可以在Preference菜单下找到Package Control命令            
+## 5. 关闭自动更新            
+Preferences -&amp;gt; Settings-User，在{}输入 ,&amp;quot;update_check&amp;quot;:false            
+
+## 6. 解决中文无法输入问题            
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;sudo apt-get update &amp;amp;&amp;amp; sudo apt-get upgrade&lt;/p&gt;
+
+&lt;p&gt;git clone &lt;a href=&#34;https://github.com/lyfeyaj/sublime-text-imfix.git&#34;&gt;https://github.com/lyfeyaj/sublime-text-imfix.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;cd sublime-text-imfix&lt;/p&gt;
+
+&lt;p&gt;./sublime-imfix
+```			&lt;/p&gt;
+
+&lt;h2 id=&#34;7-配置python编译系统&#34;&gt;7. 配置Python编译系统			&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;打开sublime text 3,点击上部菜单栏Tools-&amp;gt;Build System-&amp;gt;new Build System					&lt;/li&gt;
+&lt;li&gt;点击后，会打开一个空的配置文件，此时，往这个空配置文件拷贝一下代码。		&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+ &amp;quot;cmd&amp;quot;: [&amp;quot;你的python编译器的路径&amp;quot;, &amp;quot;-u&amp;quot;, &amp;quot;$file&amp;quot;],
+ &amp;quot;file_regex&amp;quot;: &amp;quot;^[ ]*File \&amp;quot;(...*?)\&amp;quot;, line ([0-9]*)&amp;quot;,
+ &amp;quot;selector&amp;quot;: &amp;quot;source.python&amp;quot; 
+ }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3.保存配置文件，命名为python3. 点击保存即可&lt;/p&gt;
+
+&lt;h1 id=&#34;6-anaconda安装&#34;&gt;6. Anaconda安装&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-anaconda安装&#34;&gt;1. Anaconda安装&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;下载链接：&lt;a href=&#34;https://repo.continuum.io/archive/&#34;&gt;https://repo.continuum.io/archive/&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;下载完成后需对anaconda进行安装，进入anaconda存放目录，利用命令:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;bash Anaconda3-4.2.0-Linux-x86_64.sh 
+```			
+安装完成后会询问是否添加环境变量,注意这里,如果你的系统主目录就已经存在了一个python版本,那么会覆盖掉,要慎重选择	
+PS:我就是主环境的py27被覆盖了,然后进入bashrc文件把anaconda的环境变量删除就好了	
+
+## 2. 用Anaconda创建虚拟环境			
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;conda create -n python35 python=3.5
+activate python35
+pip insatll tensorflow-gpu==1.4&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+常用命令:
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;conda list
+conda create -n 环境名 -c 镜像源
+conda config &amp;ndash;show
+conda info -e&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+Tensorlflow测试代码:
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;import tensorflow as tf&lt;/p&gt;
+
+&lt;p&gt;print(&amp;lsquo;test&amp;rsquo;)&lt;br /&gt;
+sess = tf.Session()
+hello = tf.constant(&amp;lsquo;Hello World!&amp;rsquo;)
+print(sess.run(hello))&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# 8. python多个版本搞混导致无法导入成功的排错指南			
+
+## 1. 对当前用户			
+1.查看下当前的python的目录		
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+2.看下python版本            
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;python
+或者
+python -V&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+3.通过软链接修改修改默认python版本 
+使用ln -s命令来修改，命令如下：      
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;sudo rm /usr/bin/python
+sudo ln -s /usr/bin/python3.5 /usr/bin/python
+python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;4.修改环境变量        
+该文件是当前用户的环境变量配置文件,相对于所有用户的 profile文件
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;gedit ~/.bashrc&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;在文件最下面,加入路径,格式如下:       
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;export PATH=&amp;lt;你的要加入的路径&amp;gt;:$PATH&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+如果要加入多个路径，只要：
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;export PATH=&amp;lt;你要加入的路径1&amp;gt;:&amp;lt;你要加入的路径2&amp;gt;: …… :$PATH&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;当中每个路径要以冒号分隔。
+添加PYTHONPATH的方法也是这样，在.bashrc中添加
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;export PYTHONPATH=/home/zhao/setup/caffe-master/python:/home/zhao/setup/mypy:$PYTHONPATH&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;保存后在终端输入 $ source ~/.bashrc 使环境变量立即生效
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;source ~/.bashrc&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+## 2. 对于所有用户            
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;sudo gedit /etc/profile&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;加入： 
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;export PATH=&amp;lt;你要加入的路径&amp;gt;:$PATH&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;source ~/.profile
+``&lt;code&gt;
+终端输入：&lt;/code&gt;echo $PATH` 可以查看环境变量&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>Aria2离线下载并上传到GooleDrive</title>
       <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/aria2%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E5%B9%B6%E4%B8%8A%E4%BC%A0%E5%88%B0gooledrive/</link>
       <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
@@ -49,6 +591,191 @@
 &lt;/ul&gt;
 
 &lt;p&gt;PS：百度网盘搬运至GoolgleDrive移步至&lt;a href=&#34;http://wonse.info/bd-yun-to-google-drive.html&#34;&gt;这里&lt;/a&gt;，好像也没有其他能一步到位的办法。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>IPv4访问IPv6</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/ipv4%E8%AE%BF%E9%97%AEipv6/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/ipv4%E8%AE%BF%E9%97%AEipv6/</guid>
+      
+        <description>
+
+&lt;h2 id=&#34;法一-4to6隧道&#34;&gt;法一：4to6隧道&lt;/h2&gt;
+
+&lt;h3 id=&#34;1-6plat-org-openvpn-多平台&#34;&gt;1.6plat.org+openVPN（多平台）&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;方案优点：无需资金投入，部署迅速，可以访问国内ipv6站点和一部分国外被封锁的ipv6站点&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;缺点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1、vpn带宽有限，无法进行大批量的传输；&lt;/li&gt;
+&lt;li&gt;2、无法通过wifi或者代理的方式进行分享；&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;主流平台均支持：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;官网：&lt;a href=&#34;http://bbs2.6plat.org/d/19&#34;&gt;http://bbs2.6plat.org/d/19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;个人账号申请：&lt;a href=&#34;http://bbs2.6plat.org/d/23&#34;&gt;http://bbs2.6plat.org/d/23&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;使用手册：&lt;a href=&#34;http://bbs2.6plat.org/d/19&#34;&gt;http://bbs2.6plat.org/d/19&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Linux配置客户端&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安装OpenVPN&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install openvpn
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;配置文件到 &lt;code&gt;/etc/openvpn/6plat.ovpn&lt;/code&gt;&lt;br /&gt;
+ ```
+client
+dev tun
+proto tcp
+remote 46.6plat.org 9185
+comp-lzo
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+setenv CLIENT_CERT 0
+auth-user-pass
+remote-cert-tls server
+verb 3
+sndbuf 0
+rcvbuf 0
+cipher none
+&lt;ca&gt;
+&amp;mdash;&amp;ndash;BEGIN CERTIFICATE&amp;mdash;&amp;ndash;
+MIIE3zCCA8egAwIBAgIJAJVvrlqcS4YsMA0GCSqGSIb3DQEBCwUAMIGlMQswCQYD
+VQQGEwJDTjEQMA4GA1UECBMHQmVpamluZzEQMA4GA1UEBxMHQmVpamluZzESMBAG
+A1UEChMJNnBsYXQub3JnMRMwEQYDVQQLEwo2cGxhdGdyb3VwMRUwEwYDVQQDEww2
+cGxhdC5vcmcgQ0ExEDAOBgNVBCkTB0Vhc3lSU0ExIDAeBgkqhkiG9w0BCQEWETZw
+bGF0QGJpaWdyb3VwLmNuMB4XDTE3MDEwNDA5MTc1NVoXDTI3MDEwMjA5MTc1NVow
+gaUxCzAJBgNVBAYTAkNOMRAwDgYDVQQIEwdCZWlqaW5nMRAwDgYDVQQHEwdCZWlq
+aW5nMRIwEAYDVQQKEwk2cGxhdC5vcmcxEzARBgNVBAsTCjZwbGF0Z3JvdXAxFTAT
+BgNVBAMTDDZwbGF0Lm9yZyBDQTEQMA4GA1UEKRMHRWFzeVJTQTEgMB4GCSqGSIb3
+DQEJARYRNnBsYXRAYmlpZ3JvdXAuY24wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDpTRpxYttg0EsUYWCE3GKLMPTDXlzVtn93yb9MdgUJkCiGNgaXHQ6Y
+NCcOXb3pLIxZN7eYH873ZgAY74+LiEIIAAPn+CTQjTcZ82r92xuSj47mMNd4/CcG
+5byC9clsNijsWvJ7Rq2Fy2ynSddWMMkmVGZ8oS3psPc57cEOBUBdhTI4szo6aLE0
+N3/AAFpIdfxlTATc5EWFxEk4SMPWAIcqkvZ1ETBit+HHU+Bv2oYcpzzi6jHmVw0d
+EofxV0w3AUNUN894mWprBtZKZ+DVqms0+LI3mLWPXsv3m8zYBNTXqgE5p4vJ+E3J
+3AzDKH2Rb/coBiy3V2g0Cdgc9vATQ4XzAgMBAAGjggEOMIIBCjAdBgNVHQ4EFgQU
+M/hZJqaKeV9UVH6WoS7iwAk8/Q0wgdoGA1UdIwSB0jCBz4AUM/hZJqaKeV9UVH6W
+oS7iwAk8/Q2hgaukgagwgaUxCzAJBgNVBAYTAkNOMRAwDgYDVQQIEwdCZWlqaW5n
+MRAwDgYDVQQHEwdCZWlqaW5nMRIwEAYDVQQKEwk2cGxhdC5vcmcxEzARBgNVBAsT
+CjZwbGF0Z3JvdXAxFTATBgNVBAMTDDZwbGF0Lm9yZyBDQTEQMA4GA1UEKRMHRWFz
+eVJTQTEgMB4GCSqGSIb3DQEJARYRNnBsYXRAYmlpZ3JvdXAuY26CCQCVb65anEuG
+LDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBzYlX/RgvViVvcxwGQ
+SN9wP32U9aALFI4GCQz6ODrlYVx4m00zJeuR69bjLO3NZgMv6LtcovbuME+FYq/4
+uXJJIfMlo2S/kKp5dBaGk9ERx0xs2OLAKyzc4wgx5zah5Nke1NhdYdCB6Lj6tM+s
+vthNz2SWpcctvlOvV+5IdVrefiaLl7RBgf2j81DYmPCILZwHo8rQ0zKppgqAFcFk
+tDO0FnHQcwe6xfTE1cIoOU39t+hTnvxQDBW4p9xkxX0hAFnNV41OadgEwxqyo6J0
+BZ4dtEw8E9FFF8ewWl897xSv6AMPZTizFl3OReE376Kgv+gtFlSuj4kizCd7uiRp
+o5ab
+&amp;mdash;&amp;ndash;END CERTIFICATE&amp;mdash;&amp;ndash;
+&lt;/ca&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;```         
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;配置文件到&lt;code&gt;/etc/openvpn/client.ovpn&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PS:其他类似的软件还有&lt;a href=&#34;http://www.6fei.com.cn/&#34;&gt;六飞&lt;/a&gt;、&lt;a href=&#34;http://www.veno2.com/&#34;&gt;veno &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;2-miredo-linux-only&#34;&gt;2.miredo（Linux only）&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安装&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install miredo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;检测&lt;br /&gt;
+看到 teredo 这个虚拟网卡就可以用它访问 ipv6 了&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;ifconfig
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;用隧道客户端软件miredo来访问IPv6,但我发现，系统总是优先使用IPv4而不是IPv6.测试方法： &lt;a href=&#34;http://www.kame.net/&#34;&gt;http://www.kame.net/&lt;/a&gt; 乌龟是活动的 说明是通过IPv6访问，否则就是通过IPv4访问的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;3-gw6c-gateway6-client&#34;&gt;3.gw6c(gateway6 client)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安装(安装后可能要重启机器。)&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  sudo apt-get install gw6c
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;修改防火墙IPv6设置&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  sudo gedit /etc/default/ufw
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;找到&lt;strong&gt;IPV6=no&lt;/strong&gt; 改为&lt;strong&gt;IPV6=yes&lt;/strong&gt;&lt;br /&gt;
+* 测试&lt;a href=&#34;http://www.kame.net/&#34;&gt;http://www.kame.net/&lt;/a&gt;  终于发现乌龟动起来了。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PS: 刚安装好gw6c后，系统需要10多分钟才能连接服务器成功，请耐心等待。多半就能自己配置成功。如果发现现gw6c有时无法开机启动，有时又可以，各种开机启动的方法都试过了，但还是不行，不知为何？ 没有办法如果发现没有启动，则要手工启动之： sudo gw6c start 并且如果你用的谷歌浏览器已经是打开的，就要重新关闭后打开。此链接在出现故障后也许有帮助 &lt;a href=&#34;http://xieshaohu.wordpress.com/2010/10/11/ubuntu-10-10-marverick-%E4%BD%BF%E7%94%A8gogoc%E6%9B%BF%E4%BB%A3gw6c%E8%BF%9E%E6%8E%A5ipv6/&#34;&gt;http://xieshaohu.wordpress.com/2010/10/11/ubuntu-10-10-marverick-%E4%BD%BF%E7%94%A8gogoc%E6%9B%BF%E4%BB%A3gw6c%E8%BF%9E%E6%8E%A5ipv6/&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;法二-自建vps-ssr服务器&#34;&gt;法二：自建VPS SSR服务器&lt;/h2&gt;
+
+&lt;h2 id=&#34;法三-购买支持ipv6的vpn&#34;&gt;法三：购买支持IPv6的VPN&lt;/h2&gt;
+
+&lt;h2 id=&#34;法四-opera浏览器自带vpn&#34;&gt;法四：Opera浏览器自带VPN&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;下载安装：&lt;a href=&#34;https://www.opera.com/zh-cn&#34;&gt;https://www.opera.com/zh-cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;设置系统区域&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Windows直接进入控制面板——区域和语言，将国家或地区设置为：中国台湾（在墙外的都可以）&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;开启福利功能
+
+&lt;ul&gt;
+&lt;li&gt;同样是进入opera浏览器设置页，点击 &lt;strong&gt;隐私&amp;amp;安全&lt;/strong&gt; 把福利功能勾选启用即可&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;开启科学上网&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;这时在浏览器地址栏前面会出现蓝色的V屁恩的字样，说明V屁恩已经启用，我们可以点击它，查看流量，快速打开和关闭，更改服务器位置等操作。&lt;/li&gt;
+&lt;li&gt;实测看YouTube速度一般，能看480P或720P，1080P以上还是别抱有太大期望。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;关键在于两点：一是更改计算机默认位置到国外，二是更改浏览器默认语言，才会出现标题中的隐藏福利功能：V屁恩启用项。
+设置好之后，浏览器的语言改回简体中文不影响。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PS：检测DNS是否被污染：&lt;a href=&#34;http://www.webdnstools.com/dnstools/dns-lookup&#34;&gt;http://www.webdnstools.com/dnstools/dns-lookup&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;参考：&lt;br /&gt;
+[1] &lt;a href=&#34;http://blog.51cto.com/happylifeboy/516574&#34;&gt;http://blog.51cto.com/happylifeboy/516574&lt;/a&gt;&lt;br /&gt;
+[2] &lt;a href=&#34;https://zhuanlan.zhihu.com/p/21434968&#34;&gt;https://zhuanlan.zhihu.com/p/21434968&lt;/a&gt;&lt;br /&gt;
+[3] &lt;a href=&#34;https://www.linuxidc.com/Linux/2013-06/86562.htm&#34;&gt;https://www.linuxidc.com/Linux/2013-06/86562.htm&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
@@ -436,14 +1163,14 @@ service httpd start
 &lt;li&gt;解压    ：&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;tar -xzvf ariang.tar.gz     
+&lt;pre&gt;&lt;code&gt;tar zxvf ariang.tar.gz      
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
 &lt;li&gt;移动到Apache网站目录：&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;cp -r /ariang /var/www/html 
+&lt;pre&gt;&lt;code&gt;cp -r ./ariang /var/www/html    
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
@@ -550,6 +1277,9 @@ chmod 775 /var/www/html/nextcloud
 
 &lt;pre&gt;&lt;code&gt;chown www-data /mydownload
 chmod 775 /mydownload
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;chmod 770 /var/www/html/nextcloud -Rf &amp;amp; chown www-data /var/www/html/nextcloud -Rf
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;

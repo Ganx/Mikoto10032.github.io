@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>深度学习个人环境配置 - LiangHaozan的个人博客</title>
+  <link rel="alternate" hreflang="en" href="https://mikoto10032.github.io/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<meta name="author" content="LiangHaozan" />
+  <meta name="description" content="一、安装Nvidia驱动 1.直接用Linux自带的驱动安装来进行 搜索additional drivers,点击选择安装驱动 2. 命令行安装 1.下载" />
+
+  <meta name="keywords" content="Hugo, theme, jane" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.38.2" />
+
+
+<link rel="canonical" href="https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" />
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" href="/favicon.ico" />
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="深度学习个人环境配置" />
+<meta property="og:description" content="一、安装Nvidia驱动 1.直接用Linux自带的驱动安装来进行 搜索additional drivers,点击选择安装驱动 2. 命令行安装 1.下载" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" />
+
+
+
+<meta property="article:published_time" content="2018-07-10T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-07-10T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="深度学习个人环境配置">
+<meta itemprop="description" content="一、安装Nvidia驱动 1.直接用Linux自带的驱动安装来进行 搜索additional drivers,点击选择安装驱动 2. 命令行安装 1.下载">
+
+
+<meta itemprop="datePublished" content="2018-07-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-07-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2185">
+
+
+
+<meta itemprop="keywords" content="深度学习,Tensorflow,环境配置,Linux," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="深度学习个人环境配置"/>
+<meta name="twitter:description" content="一、安装Nvidia驱动 1.直接用Linux自带的驱动安装来进行 搜索additional drivers,点击选择安装驱动 2. 命令行安装 1.下载"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">LiangHaozan</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a><a href="https://gohugo.io">
+        <li class="mobile-menu-item">external-link</li>
+      </a>
+  </ul>
+</nav>
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">LiangHaozan</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        
+        <a class="menu-item-link" href="/">Home</a>
+        
+      </li><li class="menu-item">
+        
+        <a class="menu-item-link" href="/post/">Archives</a>
+        
+      </li><li class="menu-item">
+        
+        <a class="menu-item-link" href="/tags/">Tags</a>
+        
+      </li><li class="menu-item">
+        
+        <a class="menu-item-link" href="/categories/">Categories</a>
+        
+      </li><li class="menu-item">
+        
+        <a class="menu-item-link" href="/about/">About</a>
+        
+      </li><li class="menu-item">
+        
+        <a class="menu-item-link" href="https://gohugo.io" target="_blank">
+          external-link
+          <i class="iconfont icon-new-window"></i>
+        </a>
+        
+      </li>
+  </ul>
+</nav>
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">深度学习个人环境配置</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2018-07-10 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/"> 程序员那些事 </a>
+            
+          </div>
+        <span class="more-meta"> 2185 words </span>
+        <span class="more-meta"> 5 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#一-安装nvidia驱动">一、安装Nvidia驱动</a>
+<ul>
+<li><a href="#1-直接用linux自带的驱动安装来进行">1.直接用Linux自带的驱动安装来进行</a></li>
+<li><a href="#2-命令行安装">2. 命令行安装</a></li>
+</ul></li>
+<li><a href="#二-安装cuda8-0">二、安装Cuda8.0</a>
+<ul>
+<li><a href="#1-下载">1. 下载</a></li>
+<li><a href="#2-安装">2. 安装</a></li>
+<li><a href="#7-配置python编译系统">7. 配置Python编译系统			</a></li>
+</ul></li>
+<li><a href="#6-anaconda安装">6. Anaconda安装</a>
+<ul>
+<li><a href="#1-anaconda安装">1. Anaconda安装</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h1 id="一-安装nvidia驱动">一、安装Nvidia驱动</h1>
+
+<h2 id="1-直接用linux自带的驱动安装来进行">1.直接用Linux自带的驱动安装来进行</h2>
+
+<p>搜索<strong>additional drivers</strong>,点击选择安装驱动</p>
+
+<h2 id="2-命令行安装">2. 命令行安装</h2>
+
+<p>1.下载链接：<a href="http://www.nvidia.cn/Download/index.aspx?lang=cn">http://www.nvidia.cn/Download/index.aspx?lang=cn</a><br />
+2.命令行下载并安装</p>
+
+<pre><code>sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo apt-get install nvidia-381 nvidia-settings
+</code></pre>
+
+<p>PS:但是在安装过程中会出现多个对话框，要注意正确选择，否则就会造成循环进入开机界面。</p>
+
+<p>(1) 它会提示我们是否要Disable security boot，一定要选择“是”，关闭security boot。
+(2) 后面，它为了防止是病毒关闭了security boot，还会让我们设置一个验证码，设置12345678即可，它在开机的时候会让我们输入对应位数的数字，这样设置最方便。
+(3) 等驱动安装完毕，重启计算机后还要注意，它会提示我们是（1）boot还是（2）Change boot state，一定要选择（2）改变boot状态，否则还会出现循环登录。</p>
+
+<h1 id="二-安装cuda8-0">二、安装Cuda8.0</h1>
+
+<h2 id="1-下载">1. 下载</h2>
+
+<ol>
+<li><p>下载链接： <a href="https://developer.nvidia.com/cuda-release-candidate-download">https://developer.nvidia.com/cuda-release-candidate-download</a></p></li>
+
+<li><p>命令行下载：</p></li>
+</ol>
+
+<pre><code>wget https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda_8.0.61_375.26_linux-run
+</code></pre>
+
+<h2 id="2-安装">2. 安装</h2>
+
+<pre><code>sudo sh cuda_8.0.61_linux.run
+</code></pre>
+
+<p>安装过程中，会问你好几个问题。只要注意问你要不要安装Nvidia显卡驱动时选择no就好了。(Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 361.62? n)其它的都可以选择yes。<br />
+完成之后,执行:</p>
+
+<pre><code>sudo gedit ~/.bashrc
+</code></pre>
+
+<p>在末尾添加</p>
+
+<pre><code>export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+</code></pre>
+
+<p>保存之后</p>
+
+<pre><code>source ~/.bashrc
+```				
+测试是否成功(下面的目录是cuda解压samples的目录,根据具体更改)			
+
+</code></pre>
+
+<p>cd /usr/local/cuda-8.0/samples/1_Utilities/deviceQuery
+make
+sudo ./deviceQuery</p>
+
+<pre><code>如果在最后一行显示PASS,并出现了Nvidia的显卡信息，则安装成功。 
+
+# 三、安装cudnn6.0			
+1. 下载链接：链接：https://developer.nvidia.com/rdp/cudnn-download 			
+
+2. 命令行下载			
+
+
+</code></pre>
+
+<p>wget <a href="http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/cudnn-8.0-linux-x64-v6.0.tgz">http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/cudnn-8.0-linux-x64-v6.0.tgz</a></p>
+
+<pre><code>
+3. 解压，[解压命令大全](https://blog.csdn.net/xiaoxinyu316/article/details/28244005)
+
+</code></pre>
+
+<p>tar zxvf cudnn-8.0-linux-x64-v6.0.tgz</p>
+
+<pre><code>
+将其中的include和lib64文件夹分别复制到/usr/local/cuda文件夹下：		
+
+</code></pre>
+
+<p>cd cuda
+sudo cp include/cudnn.h /usr/local/cuda/include/
+sudo cp lib64/lib* /usr/local/cuda/lib64/</p>
+
+<pre><code>然后建立软链接：		
+
+</code></pre>
+
+<p>cd /usr/local/cuda/lib64/
+sudo rm -rf libcudnn.so libcudnn.so.6    #删除原有动态文件
+sudo ln -s libcudnn.so.6.0.21 libcudnn.so.6  #生成软衔接
+sudo ln -s libcudnn.so.6 libcudnn.so      #生成软链接</p>
+
+<pre><code>
+# 四、安装Tensorflow			
+
+</code></pre>
+
+<p>pip install tensorflow-gpu=1.4</p>
+
+<pre><code>
+# 五、配置SublimeText3			
+
+## 1. 安装 	
+
+### 1. 使用ppa安装			
+
+</code></pre>
+
+<p>sudo add-apt-repository ppa:webupd8team/sublime-text-3</p>
+
+<p>sudo apt-get update</p>
+
+<p>sudo apt-get install sublime-text-installer</p>
+
+<pre><code>卸载命令:
+
+</code></pre>
+
+<p>sudo apt-get remove sublime-text-installer</p>
+
+<pre><code>### 2. 使用deb包安装			
+1. 下载地址：https://www.sublimetext.com/docs/3/linux_repositories.html
+2. 安装		
+
+
+</code></pre>
+
+<p>sudo dpkg -i sublime-text_build-3126_amd64.deb</p>
+
+<pre><code>
+### 3. 通过apt安装			
+安装GPG key:
+
+</code></pre>
+
+<p>wget -qO - <a href="https://download.sublimetext.com/sublimehq-pub.gpg">https://download.sublimetext.com/sublimehq-pub.gpg</a> | sudo apt-key add -</p>
+
+<pre><code>确保apt能够使用https源		
+
+</code></pre>
+
+<p>sudo apt-get install apt-transport-https</p>
+
+<pre><code>使用稳定版源
+
+</code></pre>
+
+<p>echo &ldquo;deb <a href="https://download.sublimetext.com/">https://download.sublimetext.com/</a> apt/stable/&rdquo; | sudo tee /etc/apt/sources.list.d/sublime-text.list</p>
+
+<pre><code>更新apt源并安装sublime-text
+
+</code></pre>
+
+<p>sudo apt-get update
+sudo apt-get install sublime-text</p>
+
+<pre><code>## 2. 打开命令
+</code></pre>
+
+<p>subl</p>
+
+<pre><code>
+## 3. 在Help里输入license key(license key可以网上自己搜索)
+
+</code></pre>
+
+<p>—– BEGIN LICENSE —–
+Michael Barnes
+Single User License
+EA7E-821385
+8A353C41 872A0D5C DF9B2950 AFF6F667
+C458EA6D 8EA3C286 98D1D650 131A97AB
+AA919AEC EF20E143 B361B1E7 4C8B7F04
+B085E65E 2F5F5360 8489D422 FB8FC1AA
+93F6323C FD7F7544 3F39C318 D95E6480
+FCCC7561 8A4A1741 68FA4223 ADCEDE07
+200C25BE DBBC4855 C4CFB774 C5EC138C
+0FEC1CEF D9DCECEC D3A5DAD1 01316C36
+—— END LICENSE ——</p>
+
+<pre><code>## 4. 安装Packeage Control        
+在终端输入subl打开sublime text3, 使用快捷键ctrl + `(ESC下面的键),在弹出的控制台中输出以下代码:    
+
+</code></pre>
+
+<p>import urllib.request,os,hashlib; h = &lsquo;df21e130d211cfc94d9b0905775a7c0f&rsquo; + &lsquo;1e3d39e33b79698005270310898eea76&rsquo;; pf = &lsquo;Package Control.sublime-package&rsquo;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &lsquo;<a href="http://packagecontrol.io/'">http://packagecontrol.io/'</a> + pf.replace(&rsquo; &lsquo;, &lsquo;%20&rsquo;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&lsquo;Error validating download (got %s instead of %s), please try manual install&rsquo; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &lsquo;wb&rsquo; ).write(by)</p>
+
+<pre><code>重启软件后可以在Preference菜单下找到Package Control命令            
+## 5. 关闭自动更新            
+Preferences -&gt; Settings-User，在{}输入 ,&quot;update_check&quot;:false            
+
+## 6. 解决中文无法输入问题            
+
+</code></pre>
+
+<p>sudo apt-get update &amp;&amp; sudo apt-get upgrade</p>
+
+<p>git clone <a href="https://github.com/lyfeyaj/sublime-text-imfix.git">https://github.com/lyfeyaj/sublime-text-imfix.git</a></p>
+
+<p>cd sublime-text-imfix</p>
+
+<p>./sublime-imfix
+```			</p>
+
+<h2 id="7-配置python编译系统">7. 配置Python编译系统			</h2>
+
+<ol>
+<li>打开sublime text 3,点击上部菜单栏Tools-&gt;Build System-&gt;new Build System					</li>
+<li>点击后，会打开一个空的配置文件，此时，往这个空配置文件拷贝一下代码。		</li>
+</ol>
+
+<pre><code>{
+ &quot;cmd&quot;: [&quot;你的python编译器的路径&quot;, &quot;-u&quot;, &quot;$file&quot;],
+ &quot;file_regex&quot;: &quot;^[ ]*File \&quot;(...*?)\&quot;, line ([0-9]*)&quot;,
+ &quot;selector&quot;: &quot;source.python&quot; 
+ }
+</code></pre>
+
+<p>3.保存配置文件，命名为python3. 点击保存即可</p>
+
+<h1 id="6-anaconda安装">6. Anaconda安装</h1>
+
+<h2 id="1-anaconda安装">1. Anaconda安装</h2>
+
+<ol>
+<li>下载链接：<a href="https://repo.continuum.io/archive/">https://repo.continuum.io/archive/</a><br /></li>
+<li>下载完成后需对anaconda进行安装，进入anaconda存放目录，利用命令:</li>
+</ol>
+
+<pre><code>bash Anaconda3-4.2.0-Linux-x86_64.sh 
+```			
+安装完成后会询问是否添加环境变量,注意这里,如果你的系统主目录就已经存在了一个python版本,那么会覆盖掉,要慎重选择	
+PS:我就是主环境的py27被覆盖了,然后进入bashrc文件把anaconda的环境变量删除就好了	
+
+## 2. 用Anaconda创建虚拟环境			
+
+</code></pre>
+
+<p>conda create -n python35 python=3.5
+activate python35
+pip insatll tensorflow-gpu==1.4</p>
+
+<pre><code>
+常用命令:
+
+</code></pre>
+
+<p>conda list
+conda create -n 环境名 -c 镜像源
+conda config &ndash;show
+conda info -e</p>
+
+<pre><code>
+Tensorlflow测试代码:
+
+</code></pre>
+
+<p>import tensorflow as tf</p>
+
+<p>print(&lsquo;test&rsquo;)<br />
+sess = tf.Session()
+hello = tf.constant(&lsquo;Hello World!&rsquo;)
+print(sess.run(hello))</p>
+
+<pre><code># 8. python多个版本搞混导致无法导入成功的排错指南			
+
+## 1. 对当前用户			
+1.查看下当前的python的目录		
+
+</code></pre>
+
+<p>which python</p>
+
+<pre><code>
+2.看下python版本            
+
+</code></pre>
+
+<p>python
+或者
+python -V</p>
+
+<pre><code>
+3.通过软链接修改修改默认python版本 
+使用ln -s命令来修改，命令如下：      
+
+</code></pre>
+
+<p>sudo rm /usr/bin/python
+sudo ln -s /usr/bin/python3.5 /usr/bin/python
+python</p>
+
+<pre><code>4.修改环境变量        
+该文件是当前用户的环境变量配置文件,相对于所有用户的 profile文件
+
+</code></pre>
+
+<p>gedit ~/.bashrc</p>
+
+<pre><code>在文件最下面,加入路径,格式如下:       
+
+</code></pre>
+
+<p>export PATH=&lt;你的要加入的路径&gt;:$PATH</p>
+
+<pre><code>
+如果要加入多个路径，只要：
+
+</code></pre>
+
+<p>export PATH=&lt;你要加入的路径1&gt;:&lt;你要加入的路径2&gt;: …… :$PATH</p>
+
+<pre><code>当中每个路径要以冒号分隔。
+添加PYTHONPATH的方法也是这样，在.bashrc中添加
+
+</code></pre>
+
+<p>export PYTHONPATH=/home/zhao/setup/caffe-master/python:/home/zhao/setup/mypy:$PYTHONPATH</p>
+
+<pre><code>保存后在终端输入 $ source ~/.bashrc 使环境变量立即生效
+
+</code></pre>
+
+<p>source ~/.bashrc</p>
+
+<pre><code>
+## 2. 对于所有用户            
+
+</code></pre>
+
+<p>sudo gedit /etc/profile</p>
+
+<pre><code>加入： 
+
+</code></pre>
+
+<p>export PATH=&lt;你要加入的路径&gt;:$PATH</p>
+
+<pre><code>
+</code></pre>
+
+<p>source ~/.profile
+``<code>
+终端输入：</code>echo $PATH` 可以查看环境变量</p>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">LiangHaozan</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-07-10</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">深度学习</a>
+          
+          <a href="/tags/tensorflow/">Tensorflow</a>
+          
+          <a href="/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">环境配置</a>
+          
+          <a href="/tags/linux/">Linux</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/win10&#43;ubuntu16.%E5%8F%8C%E7%B3%BB%E7%BB%9F/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Win10&#43;Ubuntu16双系统</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/aria2%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E5%B9%B6%E4%B8%8A%E4%BC%A0%E5%88%B0gooledrive/">
+            <span class="next-text nav-default">Aria2离线下载并上传到GooleDrive</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+    
+
+  
+
+  
+
+  <div id="comments-gitment"></div>
+  <link rel="stylesheet" href="/lib/gitment/gitment-0.0.3.min.css">
+    <script src="/lib/gitment/gitment-0.0.3.min.js"></script>
+  <script type="text/javascript">
+  const gitment = new Gitment({
+    id: '深度学习个人环境配置.md',
+    title: '深度学习个人环境配置',
+    link: decodeURI(location.href),
+    desc: '一、安装Nvidia驱动 1.直接用Linux自带的驱动安装来进行 搜索additional drivers,点击选择安装驱动 2. 命令行安装 1.下载',
+    owner: 'Mikoto10032',
+    repo: 'BlogsComments',
+    oauth: {
+      client_id: '1bb3e8b56d64955e6f3c',
+      client_secret: 'e9b9bbb2313dfcca75c60a0f6328f59860ff3367'
+    }
+  })
+  gitment.render('comments-gitment')
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+  </article>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:437082907@qq.com" rel="me" class="iconfont icon-email" 
+        title="email" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-stack-overflow" 
+        title="stack-overflow" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-twitter" 
+        title="twitter" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-facebook" 
+        title="facebook" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-linkedin" 
+        title="linkedin" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-google" 
+        title="google" target="_blank">
+      </a>
+      <a href="https://github.com/Mikoto10032" rel="me" class="iconfont icon-github" 
+        title="github" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-weibo" 
+        title="weibo" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-zhihu" 
+        title="zhihu" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-douban" 
+        title="douban" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-pocket" 
+        title="pocket" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-tumblr" 
+        title="tumblr" target="_blank">
+      </a>
+      <a href="http://localhost:1313" rel="me" class="iconfont icon-instagram" 
+        title="instagram" target="_blank">
+      </a>
+      <a href="http://en.xianmin.org/hugo-theme-jane/" rel="me" class="iconfont icon-gitlab" 
+        title="gitlab" target="_blank">
+      </a>
+      <a href="http://en.xianmin.org/hugo-theme-jane/" rel="me" class="iconfont icon-goodreads" 
+        title="goodreads" target="_blank">
+      </a>
+  <a href="https://mikoto10032.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" 
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2017 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">LiangHaozan</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+</body>
+</html>

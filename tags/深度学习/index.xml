@@ -6,10 +6,36 @@
     <description>Recent content in 深度学习 on LiangHaozan的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mikoto10032.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Keep Up With New Trends!</title>
+      <link>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/keep-up-with-new-trends/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/keep-up-with-new-trends/</guid>
+      <description>2018 CVPR  CVPR 2018 open access
+ CVPR 2018 Awards
+ Best Paper Award
+ Taskonomy: Disentangling Task Transfer Learning
+  Best Student Paper Award
+ Total Capture: A 3D Deformation Model for Tracking Faces, Hands, and Bodies
+  Honorable Mention
+ Deep Learning of Graph Matching SPLATNet: Sparse Lattice Networks for Point Cloud Processing
+ CodeSLAM — Learning a Compact, Optimisable Representation for Dense Visual SLAM</description>
+    </item>
+    
+    <item>
+      <title>深度学习个人环境配置</title>
+      <link>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AA%E4%BA%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</guid>
+      <description>一、安装Nvidia驱动 1.直接用Linux自带的驱动安装来进行 搜索additional drivers,点击选择安装驱动 2. 命令行安装 1.下载</description>
+    </item>
     
     <item>
       <title>深度学习</title>
