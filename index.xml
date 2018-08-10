@@ -41,31 +41,43 @@
       
         <description>
 
-&lt;h1 id=&#34;2018&#34;&gt;2018&lt;/h1&gt;
+&lt;h1 id=&#34;会议时间表&#34;&gt;会议时间表&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://www.vsislab.com/notice/&#34;&gt;计算机视觉和图像处理国际会议时间表(持续更新)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;2018会议&#34;&gt;2018会议&lt;/h1&gt;
+
+&lt;h2 id=&#34;iccv&#34;&gt;ICCV&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;cvpr&#34;&gt;CVPR&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/CVPR2018.py&#34;&gt;CVPR 2018 open access&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://cvpr2018.thecvf.com/program/main_conference#awards&#34;&gt;CVPR 2018 Awards&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/CVPR2018.py&#34;&gt;CVPR 2018 open access&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://cvpr2018.thecvf.com/program/main_conference#awards&#34;&gt;CVPR 2018 Awards&lt;/a&gt;&lt;/strong&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Best Paper Award&lt;/strong&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;Best Paper Award&lt;/strong&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/papers/Zamir_Taskonomy_Disentangling_Task_CVPR_2018_paper.pdf&#34;&gt;Taskonomy: Disentangling Task Transfer Learning&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/papers/Zamir_Taskonomy_Disentangling_Task_CVPR_2018_paper.pdf&#34;&gt;Taskonomy: Disentangling Task Transfer Learning&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Best Student Paper Award&lt;/strong&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;Best Student Paper Award&lt;/strong&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0369.pdf&#34;&gt;Total Capture: A 3D Deformation Model for Tracking Faces, Hands, and Bodies&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0369.pdf&#34;&gt;Total Capture: A 3D Deformation Model for Tracking Faces, Hands, and Bodies&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Honorable Mention&lt;/strong&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;Honorable Mention&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1830.pdf&#34;&gt;Deep Learning of Graph Matching&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0326.pdf&#34;&gt;SPLATNet: Sparse Lattice Networks for Point Cloud Processing&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/3124.pdf&#34;&gt;CodeSLAM — Learning a Compact, Optimisable Representation for Dense Visual SLAM&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0326.pdf&#34;&gt;SPLATNet: Sparse Lattice Networks for Point Cloud Processing&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/3124.pdf&#34;&gt;CodeSLAM — Learning a Compact, Optimisable Representation for Dense Visual SLAM&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2018/papers/Mohapatra_Efficient_Optimization_for_CVPR_2018_paper.pdf&#34;&gt;Efficient Optimization for Rank-Based Loss Functions&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -74,25 +86,35 @@
 &lt;h2 id=&#34;icml&#34;&gt;ICML&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://icml.cc/Conferences/2018/Schedule?type=Poster&#34;&gt;Accepted Papers&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://icml.cc/Conferences/2018/Schedule?type=Oral&#34;&gt;Orals&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://icml.cc/Conferences/2018/Awards&#34;&gt;ICML 2018 Awards&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://icml.cc/Conferences/2018/Schedule?type=Poster&#34;&gt;Accepted Papers&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://icml.cc/Conferences/2018/Schedule?type=Oral&#34;&gt;Orals&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://icml.cc/Conferences/2018/Awards&#34;&gt;ICML 2018 Awards&lt;/a&gt;&lt;/strong&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Best Paper Awards&lt;/strong&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;Best Paper Awards&lt;/strong&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1802.00420&#34;&gt;Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples &lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1803.04383&#34;&gt;Delayed Impact of Fair Machine Learning &lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1802.00420&#34;&gt;Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples &lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1803.04383&#34;&gt;Delayed Impact of Fair Machine Learning &lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Best Paper Runner Up Awards&lt;/strong&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;Best Paper Runner Up Awards&lt;/strong&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1802.05642&#34;&gt;The Mechanics of n-Player Differentiable Games &lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://proceedings.mlr.press/v80/huang18a/huang18a.pdf&#34;&gt;Near Optimal Frequent Directions for Sketching Dense and Sparse Matrices&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1802.05642&#34;&gt;The Mechanics of n-Player Differentiable Games &lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://proceedings.mlr.press/v80/huang18a/huang18a.pdf&#34;&gt;Near Optimal Frequent Directions for Sketching Dense and Sparse Matrices&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1806.08010&#34;&gt;Fairness Without Demographics in Repeated Loss Minimization &lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;目标检测paper&#34;&gt;目标检测Paper&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html&#34;&gt;hangdong博客(持续更新)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/amusi/awesome-object-detection&#34;&gt;阿木寺(持续更新)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CVPR 2018 : &lt;a href=&#34;https://blog.csdn.net/amusi1994/article/details/81144554&#34;&gt;1&lt;/a&gt; , &lt;a href=&#34;https://blog.csdn.net/sunshine_010/article/details/80008522&#34;&gt;2&lt;/a&gt; , &lt;a href=&#34;https://blog.csdn.net/qq_35451572/article/details/80758263&#34;&gt;3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_35451572/article/details/80758263&#34;&gt;CVPR 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/21533724&#34;&gt;CVPR 2016&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       
