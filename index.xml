@@ -20,12 +20,47 @@
       
         <description>
 
-&lt;h3 id=&#34;作者-梁浩赞&#34;&gt;作者：梁浩赞&lt;/h3&gt;
+&lt;h2 id=&#34;梁浩赞&#34;&gt;梁浩赞&lt;/h2&gt;
+
+&lt;h3 id=&#34;教育经历&#34;&gt;教育经历&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;这是我的个人博客，感谢您的访问！&lt;/li&gt;
-&lt;li&gt;主要记录平时的学习笔记！&lt;/li&gt;
-&lt;li&gt;希望自己的文章能够对您有所帮助！&lt;/li&gt;
+&lt;li&gt;本科·&lt;a href=&#34;http://www.scut.edu.cn/cs/&#34;&gt;华南理工大学计算机科学与技术专业&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;硕士·&lt;a href=&#34;http://www.scut.edu.cn/cs/&#34;&gt;华南理工大学计算机科学与技术专业&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;实验室&#34;&gt;实验室&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.hgml.cn&#34;&gt;机器学习与数据挖掘实验室&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;研究方向&#34;&gt;研究方向&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;机器学习&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;深度学习&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;计算机视觉&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;图像分类&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;目标检测&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;小样本学习&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;注意力机制&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;多任务学习&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;再说几句&#34;&gt;再说几句&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;这是我的个人博客，非常感谢您的访问！&lt;/li&gt;
+&lt;li&gt;此处主要记录平时的学习笔记！&lt;/li&gt;
+&lt;li&gt;衷心希望自己的文章能够对您有所帮助！&lt;/li&gt;
 &lt;li&gt;因本人技术水平有限，难免出现错误，希望多多指教！&lt;/li&gt;
 &lt;/ul&gt;
 </description>
